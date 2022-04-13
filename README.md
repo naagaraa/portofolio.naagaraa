@@ -1,5 +1,7 @@
 # client
 
+this old project build from rect sj translate to vuejs
+
 ## Build Setup
 
 ```bash

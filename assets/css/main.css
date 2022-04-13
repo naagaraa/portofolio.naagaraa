@@ -1,0 +1,116 @@
+.banner {
+  /* background-color: rgb(14, 13, 13); */
+  background-image: url("https://images.unsplash.com/photo-1530368678098-3a2e53420976?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGJsdXJ8ZW58MHwwfDB8Ymx1ZXw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 36rem;
+}
+
+.bg-gray {
+  background-color: whitesmoke;
+}
+
+.post-card {
+  text-decoration: none;
+  color: rgb(129, 129, 129);
+}
+
+.post-card h5 {
+  color: black;
+}
+
+.post-card:hover {
+  color: black;
+}
+/* sosmed */
+.fa-youtube {
+  color: red;
+}
+.fa-youtube:hover {
+  color: rgb(223, 10, 10);
+}
+
+.fa-github {
+  color: black;
+}
+.fa-github:hover {
+  color: rgb(73, 73, 73);
+}
+
+.fa-dribbble {
+  color: rgb(195, 10, 171);
+}
+.fa-dribbble:hover {
+  color: rgb(144, 11, 126);
+}
+
+.fa-instagram {
+  color: rgb(87, 41, 195);
+}
+.fa-instagram:hover {
+  color: rgb(64, 18, 170);
+}
+
+.bg-custom {
+  background-color: rgb(8, 8, 8) !important;
+}
+
+.bg-card {
+  background-color: #0a0a0a !important;
+  display: inline-block;
+  color: whitesmoke;
+}
+.search {
+  margin-top: 5rem;
+  color: white;
+}
+
+.search-box {
+  padding: 20px 30px !important;
+  height: 60px;
+  font-size: large !important;
+}
+
+.box-card {
+  color: black !important;
+  padding: 10px;
+  width: inherit;
+  margin: auto;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px #292929;
+  z-index: 9999;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.text-justify {
+  text-align: left !important;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+  height: 13px;
+}
+::-webkit-scrollbar-thumb {
+  background: #4f64ff;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3746b8;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: inset 7px 10px 12px #f0f0f0;
+}
+
+.color-red {
+  color: red;
+}
+.color-black {
+  color: #0a0a0a;
+}

@@ -9,7 +9,7 @@ img: https://images.unsplash.com/photo-1618335829737-2228915674e0?ixlib=rb-1.2.1
 alt: My First FrameWork
 author:
   name: Miyuki Nagara
-  bio: Founder of WowThemes.net and creator of <b>"Mediumish"</b>{" "} theme that you're currently previewing. Developing professional premium themes, templates, plugins, scripts since 2012. adasd
+  bio: Learner, Fullstack Web Developper main Language PHP and Javascript, and Framework Stack Laravel, Vuejs 3, and for UI component I'am used Boostrap.
 ---
 
 coming soon

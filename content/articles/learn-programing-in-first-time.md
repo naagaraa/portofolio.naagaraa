@@ -2,17 +2,17 @@
 body: Object
 excerpt: Object
 toc: Array
-title: Learn Programing in First Time
-description: learn programing in fist time at campus
+title: Learn Programing in the First Time
+description: quickly learn programing for fist time on campus
 profile: /img.jpg
 img: https://images.unsplash.com/photo-1618335829737-2228915674e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
-alt: Learn Programing in First Time
+alt: Learn Programing for First Time
 author:
   name: Miyuki Nagara
-  bio: Learner, Fullstack Web Developper main Language PHP and Javascript, and Framework Stack Laravel, Vuejs 3, and for UI component I'am used Boostrap.
+  bio: Learner, Fullstack Web Developer main Language PHP and Javascript, and Framework Stack Laravel, Vuejs 3, and for UI component I'am using Boostrap.
 ---
 
-[![The San Juan Mountains are beautiful!](https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 'San Juan Mountains')](https://unsplash.com/s/photos/student?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Libraries!](https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 'San Juan Mountains')](https://unsplash.com/s/photos/student?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 while I'm a student for 1 year, I don't know how to start learning about programming, but I should hard work bro. and I am not very smart in English both written or spoken. but in the past 3 years ago, I just keep do it. I trying to write a code starting from HTML, CSS, and basic javascript.
 
@@ -32,7 +32,7 @@ actually, I'm getting free resources from the internet, you can get free by goog
 
 my first project is a website static with native HTML, CSS, and javascript, if I look back it's very ugly hahaha. I'm interested in the front end because I think to make design is easier event to be a backend and implement an algorithm. but for now, I have chosen the both, beautiful UI is important for user experience, and the backend is also important for services, without the backend apps can't run dynamic
 
-[![The San Juan Mountains are beautiful!](https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 'Jefferson Santos')](https://unsplash.com/s/photos/programming-languages?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[![Programmer!](https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 'Jefferson Santos')](https://unsplash.com/s/photos/programming-languages?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 ### after 3 years ?
 

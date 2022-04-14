@@ -24,8 +24,8 @@
         <div class="col-md-8 col-md-offset-2 col-xs-12">
           <div class="mainheading">
             <div class="row post-top-meta">
-              <div class="col-md-2">
-                <a href="author.html">
+              <div class="col-md-2 d-flex">
+                <a target="_blank" href="https://github.com/naagaraa">
                   <img
                     class="author-thumb"
                     :src="article.profile"
@@ -34,7 +34,7 @@
                 </a>
               </div>
               <div class="col-md-10">
-                <a class="link-dark" href="author.html"> Miyuki Nagara </a>
+                <NuxtLink class="link-dark" to="/about"> Miyuki Nagara </NuxtLink>
                 <span class="author-description">
                   {{ article.author.bio }}
                 </span>
@@ -42,7 +42,7 @@
                   >created at {{ formatDate(article.createdAt) }}</span
                 >
                 <span class="dot"></span>
-                <span class="post-read">6 min read</span>
+                <!-- <span class="post-read">6 min read</span> -->
               </div>
             </div>
             <h1 class="posttitle">
@@ -138,15 +138,20 @@ export default {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       return new Date(date).toLocaleDateString('en', options)
     },
+    debug (event) {
+      console.log(event.target.name)
+    }
   },
   head() {
+    let article = this.article
+
     return {
-      title: this.article.title,
+      title: article.title,
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: this.article.description,
+          content: article.description,
         },
       ],
     }

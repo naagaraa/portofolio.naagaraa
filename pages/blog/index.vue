@@ -22,7 +22,7 @@
         <div class="row">
           <!-- <div  > -->
           <div
-            class="col-6 col-md-4 col-lg-3 mb-4"
+            class="col col-md-4 col-lg-3 mb-4"
             v-for="article of articles"
             :key="article.slug"
           >
@@ -37,8 +37,8 @@
                   alt="Sample Title"
                 /> -->
               <div class="card-body">
-                <h5 class="card-title text-center">{{ article.title }}</h5>
-                <span class="card-text text-center"
+                <h6 class="card-title text-center">{{ article.title }}</h6>
+                <span class="d-none d-sm-block card-text text-center text-small"
                   >by {{ article.author.name }}</span
                 >
                 <p class="card-text mt-3">{{ article.description }}</p>
@@ -68,4 +68,11 @@ export default {
   },
 }
 </script>
-<style lang=""></style>
+<style>
+
+  /* @media screen and (min-width:480px) {
+   p{
+    font-size:5vw
+  } */
+/* } */
+</style>

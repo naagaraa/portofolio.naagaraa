@@ -42,6 +42,11 @@ h3{
   margin-bottom: 2vh;
 }
 
+img{
+  width: 100%;
+  height: auto;
+}
+
 .mainheading {
   padding: 1rem 0rem;
 }

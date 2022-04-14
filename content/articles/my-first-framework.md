@@ -12,4 +12,3 @@ author:
   bio: Learner, Fullstack Web Developper main Language PHP and Javascript, and Framework Stack Laravel, Vuejs 3, and for UI component I'am used Boostrap.
 ---
 
-coming soon

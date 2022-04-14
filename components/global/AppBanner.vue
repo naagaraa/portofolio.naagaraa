@@ -20,12 +20,12 @@
             </form>
             <ul class="list-group" v-if="articles.length">
               <li
-                class="list-group-item nav-item"
+                class="list-group-item nav-item bg-dark"
                 v-for="article of articles"
                 :key="article.slug"
               >
                 <NuxtLink
-                  class="nav-link text-dark"
+                  class="nav-link text-white"
                   :to="{ name: 'blog-slug', params: { slug: article.slug } }"
                 >
                   {{ article.title }}

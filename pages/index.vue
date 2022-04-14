@@ -67,3 +67,10 @@ export default {
   name: 'IndexPage',
 }
 </script>
+
+<style>
+ins {
+    background: #bbb;
+}
+</style>
+

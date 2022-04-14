@@ -61,12 +61,12 @@
         </div>
         <div class="row mt-3 d-flex justify-content-end">
           <div class="col-md-2">
-            <NuxtLink to="privacy-policy" class="nav-link">
+            <NuxtLink to="/privacy-policy" class="nav-link">
               Privacy Policy
             </NuxtLink>
           </div>
           <div class="col-md-2">
-            <NuxtLink to="term-of-service" class="nav-link">
+            <NuxtLink to="/term-of-service" class="nav-link">
               Term of Service
             </NuxtLink>
           </div>

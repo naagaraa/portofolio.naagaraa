@@ -12,35 +12,4 @@ author:
   bio: Learner, Fullstack Web Developper main Language PHP and Javascript, and Framework Stack Laravel, Vuejs 3, and for UI component I'am used Boostrap.
 ---
 
-Welcome to my first blog post using content module
-Founder of WowThemes.net and creator of <b>"Mediumish"</b>{" "}
-theme that you're currently previewing. Developing asdad
-professional premium themes, templates, plugins, scripts
-since 2012.
-
-<p>
-Founder of WowThemes.net and creator of <b>"Mediumish"</b>{" "}
-theme that you're currently previewing. Developing
-professional premium themes, templates, plugins, scripts
-since 2012.</p>
-<p>
-Founder of WowThemes.net and creator of <b>"Mediumish"</b>{" "}
-theme that you're currently previewing. Developing
-professional premium themes, templates, plugins, scripts
-since 2012.</p>
-<p>
-Founder of WowThemes.net and creator of <b>"Mediumish"</b>{" "}
-theme that you're currently previewing. Developing
-professional premium themes, templates, plugins, scripts
-since 2012.</p>
-
-```js{1,3-5}[server.js]
-const http = require('http')
-const bodyParser = require('body-parser')
-
-http.createServer((req, res) => {
-  bodyParser.parse(req, (error, body) => {
-    res.end(body)
-  })
-}).listen(3000)
-```
+story is coming soon

@@ -17,21 +17,7 @@
               <div class="col">
                 <main>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Minus sit architecto ipsa hic, error dignissimos facere eum
-                    culpa aliquam deleniti eos sed voluptas, voluptatum sapiente
-                    animi, quam velit nihil inventore? Repellat quod eum optio.
-                    Id, velit in. Cum quod facilis, doloremque in aliquam ea
-                    perspiciatis officiis similique fugiat illum beatae vero
-                    reprehenderit nam numquam quas. Mollitia saepe cupiditate in
-                    quos! Obcaecati provident, iure nobis dolore molestiae sunt
-                    ipsum omnis harum suscipit libero quam, nihil aspernatur
-                    reiciendis fugiat ullam deleniti quidem ducimus doloremque
-                    dicta? Optio asperiores quis ducimus debitis ipsa eligendi.
-                    Repellat iste quasi impedit suscipit delectus placeat
-                    molestiae molestias non facilis libero optio blanditiis,
-                    dignissimos inventore enim dolorem perspiciatis officia
-                    magni unde in nisi nesciunt. Vero illum assumenda et fugit.
+                    Saya, Dev journey (“Saweria.co”), website terbatas yang didirikan berdasarkan hobi, dalam Syarat dan Ketentuan Penggunaan Layanan ini bertindak sebagai dev journey. Halaman ini menjelaskan tentang syarat dan ketentuan penggunaan situs web dan platform naagaraa.netlify.app, baik sebagai pengunjung maupun pengguna (Anda). Seluruh pengunjung dan pengguna wajib membaca dan mencermati Syarat dan Ketentuan Penggunaan Penggunaan Layanan ini. Dengan mengunjungi dan/atau menggunakan Saweria.co, maka Anda dinyatakan telah memahami dan menyepakati semua Syarat dan Ketentuan Layanan di bawah ini. Apabila Anda tidak menyetujui salah satu, sebagian atau seluruh isi dari Syarat dan Ketentuan Layanan ini, maka Anda tidak diperkenankan untuk menggunakan layanan di Saweria.co. Ketentuan dapat berubah sewaktu waktu untuk pembaharuan  
                   </p>
                 </main>
               </div>

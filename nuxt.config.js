@@ -2,16 +2,22 @@ import theme from '@nuxt/content-theme-docs'
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
+  // for local
   // target: 'static',
+  // for server
   target: 'server',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'client',
+    title: 'miyuki nagara',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'developper story and journey',
+      },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],

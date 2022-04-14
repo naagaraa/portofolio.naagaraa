@@ -7,6 +7,41 @@ License: https://www.wowthemes.net/freebies-license/
 /* body {
   padding-top: 5rem;
 } */
+table {
+  margin-top: 3vh;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+pre {
+  
+  white-space: pre-wrap;
+  word-wrap: break-all;
+  text-align: justify;
+  font-size: 14vw;
+}
+
+h3{
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+
 .mainheading {
   padding: 1rem 0rem;
 }

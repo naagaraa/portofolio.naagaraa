@@ -28,7 +28,7 @@
                 <a href="author.html">
                   <img
                     class="author-thumb"
-                    src="https://images.unsplash.com/photo-1595152452543-e5fc28ebc2b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                    :src="article.profile"
                     alt="Sal"
                   />
                 </a>
@@ -52,15 +52,15 @@
           </div>
           <!-- <img
               class="featured-image img-fluid"
-              src="assets/img/demopic/10.jpg"
+              :src="assets/img/demopic/10.jpg"
               alt=""
             /> -->
           <div class="article-post">
             <article>
-                <nuxt-content
-                  class="prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto"
-                  :document="article"
-                />
+              <nuxt-content
+                class="prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto"
+                :document="article"
+              />
             </article>
             <!-- <p>
                 Holy grail funding non-disclosure agreement advisor ramen
@@ -127,7 +127,6 @@ import AppFooter from '../../components/global/AppFooter.vue'
 export default {
   async asyncData({ $content, params }) {
     const article = await $content('articles', params.slug).fetch()
-
     return { article }
   },
   components: {
@@ -139,6 +138,18 @@ export default {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       return new Date(date).toLocaleDateString('en', options)
     },
+  },
+  head() {
+    return {
+      title: this.article.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.article.description,
+        },
+      ],
+    }
   },
 }
 </script>

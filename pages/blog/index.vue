@@ -28,14 +28,14 @@
           >
             <div class="card mx-auto text-center">
               <NuxtLink
+                class="nav-link text-dark"
                 :to="{ name: 'blog-slug', params: { slug: article.slug } }"
               >
-                <img
+                <!-- <img
                   class="card-img-top img-thumbnail"
                   :src="article.img"
                   alt="Sample Title"
-                />
-              </NuxtLink>
+                /> -->
               <div class="card-body">
                 <h5 class="card-title text-center">{{ article.title }}</h5>
                 <span class="card-text text-center"
@@ -43,6 +43,7 @@
                 >
                 <p class="card-text mt-3">{{ article.description }}</p>
               </div>
+              </NuxtLink>
             </div>
           </div>
 

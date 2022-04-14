@@ -3,7 +3,7 @@ import theme from '@nuxt/content-theme-docs'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   // target: 'static',
-  target: 'serverless',
+  target: 'server',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {

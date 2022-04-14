@@ -81,16 +81,15 @@
                 </li>
               </ul>
             </div> -->
-            <div class="row">
               <!-- footer ads -->
-              <ins class="adsbygoogle"
+              <!-- <ins class="adsbygoogle"
                   style="display:block"
                   data-ad-client="ca-pub-8243005452898565"
                   data-ad-slot="1371505380"
                   data-ad-format="auto"
-                  data-full-width-responsive="true"></ins>
-              <adsbygoogle />
-            </div>
+                  data-full-width-responsive="true"></ins> -->
+
+              <adsbygoogle ad-slot="1371505380" ad-format="auto" analytics-uacct='UA-172028584-1' />
 
         </div>
       </div>

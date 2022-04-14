@@ -7,8 +7,6 @@ export default {
   // for server
   // target: 'server',
 
-  babel: { compact: true },
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'miyuki nagara',
@@ -110,7 +108,12 @@ export default {
   content: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    babel: {
+      compact: true,
+    },
+    
+  },
 
   // specify module rules for css and scss
   // module: {

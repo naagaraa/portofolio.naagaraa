@@ -57,6 +57,7 @@
         </div>
       </div>
     </div>
+    <adsbygoogle ad-slot="1371505380" ad-format="auto" analytics-uacct='UA-172028584-1' />
     <AppFooter />
   </div>
 </template>

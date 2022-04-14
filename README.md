@@ -4,6 +4,8 @@ this old project build from rect sj translate to vuejs
 
 ## Build Setup
 
+create directory dist
+
 ```bash
 # install dependencies
 $ npm install

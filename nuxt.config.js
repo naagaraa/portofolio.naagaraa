@@ -3,9 +3,11 @@ import theme from '@nuxt/content-theme-docs'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   // for local
-  // target: 'static',
+  target: 'static',
   // for server
-  target: 'server',
+  // target: 'server',
+
+  babel: { compact: true },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {

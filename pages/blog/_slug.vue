@@ -81,6 +81,15 @@
                 </li>
               </ul>
             </div> -->
+            <div class="row">
+              <!-- footer ads -->
+              <ins class="adsbygoogle"
+                  style="display:block"
+                  data-ad-client="ca-pub-8243005452898565"
+                  data-ad-slot="1371505380"
+                  data-ad-format="auto"
+                  data-full-width-responsive="true"></ins>
+            </div>
         </div>
       </div>
     </div>
@@ -97,6 +106,9 @@ export default {
   async asyncData({ $content, params }) {
     const article = await $content('articles', params.slug).fetch()
     return { article }
+  },
+  computed() {
+     (adsbygoogle = window.adsbygoogle || []).push({})
   },
   components: {
     AppHeader,

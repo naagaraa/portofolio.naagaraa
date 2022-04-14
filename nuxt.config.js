@@ -69,10 +69,11 @@ export default {
     defaultLocale: 'en',
   },
   buildModules: [
+    '@nuxtjs/dotenv',
     [
       '@nuxtjs/google-analytics',
       {
-        id: 'UA-12301-2',
+        id: '',
       },
     ],
   ],
@@ -89,6 +90,10 @@ export default {
     '@nuxt/content',
     // fontawensome
     // '@nuxtjs/fontawesome',
+    // google analytics
+    '@nuxtjs/google-analytics',
+    // google adsence
+    '@nuxtjs/google-adsense',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -112,9 +117,20 @@ export default {
     babel: {
       compact: true,
     },
-    
   },
 
+  'google-adsense': {
+    id: process.env.GOOGLE_ADSENSE_ID,
+    onPageLoad: false,
+    pageLevelAds: false,
+  },
+
+  publicRuntimeConfig: {
+    'google-adsense': {
+      id: process.env.GOOGLE_ADSENSE_ID,
+      test: process.env.GOOGLE_ADSENSE_TEST_MODE === 'true',
+    },
+  },
   // specify module rules for css and scss
   // module: {
   //   rules: [

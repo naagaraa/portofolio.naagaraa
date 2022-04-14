@@ -1,5 +1,5 @@
-import theme from '@nuxt/content-theme-docs'
-require('dotenv').config()
+// import theme from '@nuxt/content-theme-docs'
+// require('dotenv').config()
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -7,16 +7,6 @@ export default {
   target: 'static',
   // for server
   // target: 'server',
-
-  // replace env with publicRuntimeConfig
-  publicRuntimeConfig: {
-    baseURL: process.env.BASE_URL || 'https://naagaraa.netlify.app/',
-    GOOGLE_ADSENSE_ID:
-      process.env.GOOGLE_ADSENSE_ID || 'ca-pub-8243005452898565',
-    GOOGLE_ADSENSE_TEST_MODE: process.env.GOOGLE_ADSENSE_TEST_MODE || true,
-    GOOGLE_ANALYTICS_USER_ID:
-      process.env.GOOGLE_ANALYTICS_USER_ID || 'UA-172028584-1',
-  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -81,11 +71,10 @@ export default {
   },
   buildModules: [
     '@nuxtjs/dotenv',
-    {},
     [
       '@nuxtjs/google-analytics',
       {
-        id: process.env.GOOGLE_ANALYTICS_USER_ID || 'UA-172028584-1',
+        id: process.env.GOOGLE_ADSENSE_ID || 'UA-172028584-1',
       },
     ],
   ],

@@ -48,7 +48,7 @@
               </NuxtLink>
             </div>
           </div>
-
+          <adsbygoogle />
           <!-- </div> -->
         </div>
       </div>
@@ -71,10 +71,7 @@ export default {
 }
 </script>
 <style>
-
-  /* @media screen and (min-width:480px) {
-   p{
-    font-size:5vw
-  } */
-/* } */
+ins {
+    background: #bbb;
+}
 </style>

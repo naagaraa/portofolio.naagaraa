@@ -89,7 +89,9 @@
                   data-ad-slot="1371505380"
                   data-ad-format="auto"
                   data-full-width-responsive="true"></ins>
+              <adsbygoogle />
             </div>
+
         </div>
       </div>
     </div>
@@ -106,9 +108,6 @@ export default {
   async asyncData({ $content, params }) {
     const article = await $content('articles', params.slug).fetch()
     return { article }
-  },
-  computed() {
-     (adsbygoogle = window.adsbygoogle || []).push({})
   },
   components: {
     AppHeader,
@@ -154,4 +153,8 @@ export default {
   },
 }
 </script>
-<style lang=""></style>
+<style>
+ins {
+    background: #bbb;
+}
+</style>

@@ -1,7 +1,7 @@
 <template lang="">
   <div>
     <AppHeader />
-    <div class="container mt-5 pt-5">
+    <div class="container">
       <div class="row">
         <div class="col-md-2 col-xs-12">
           <div class="share">
@@ -22,7 +22,9 @@
           </div>
         </div>
         <div class="col-md-8 col-md-offset-2 col-xs-12">
-          <div class="mainheading">
+          <h5 class="my-3">Search here</h5>
+          <AppSearch />
+          <div class="mainheading mt-5">
             <div class="row post-top-meta">
               <div class="col-md-2 d-flex">
                 <a target="_blank" href="https://github.com/naagaraa">
@@ -62,39 +64,6 @@
                 :document="article"
               />
             </article>
-            <!-- <p>
-                Holy grail funding non-disclosure agreement advisor ramen
-                bootstrapping ecosystem. Beta crowdfunding iteration assets
-                business plan paradigm shift stealth mass market seed money
-                rockstar niche market marketing buzz market.
-              </p>
-              <p>
-                Burn rate release facebook termsheet equity technology.
-                Interaction design rockstar network effects handshake creative
-                startup direct mailing. Technology influencer direct mailing
-                deployment return on investment seed round.
-              </p>
-              <p>
-                Termsheet business model canvas user experience churn rate low
-                hanging fruit backing iteration buyer seed money. Virality
-                release launch party channels validation learning curve paradigm
-                shift hypotheses conversion. Stealth leverage freemium venture
-                startup business-to-business accelerator market.
-              </p>
-              <blockquote>
-                Gen-z strategy long tail churn rate seed money channels user
-                experience incubator startup partner network low hanging fruit
-                direct mailing. Client backing success startup assets responsive
-                web design burn rate A/B testing metrics first mover advantage
-                conversion.
-              </blockquote>
-              <p>
-                Freemium non-disclosure agreement lean startup bootstrapping
-                holy grail ramen MVP iteration accelerator. Strategy market
-                ramen leverage paradigm shift seed round entrepreneur
-                crowdfunding social proof angel investor partner network
-                virality.
-              </p> -->
           </div>
           <!-- <div class="after-post-tags">
               <ul class="tags">
@@ -149,9 +118,24 @@ export default {
       title: article.title,
       meta: [
         {
-          hid: 'description',
-          name: 'description',
+          hid: 'og:title',
+          name: 'og:title',
+          content: article.title,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: article.img,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
           content: article.description,
+        },
+        {
+          hid: 'og:url',
+          name: 'og:url',
+          content: `${this.$config.baseURL}${this.$route.path}`,
         },
       ],
     }

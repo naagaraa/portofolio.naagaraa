@@ -15,8 +15,10 @@
     </ul> -->
     <!-- <pre>{{ articles }}</pre> -->
     <AppHeader />
-    <div id="app" class="container mt-5 py-3">
-      <h3 class="text-center mx-auto my-3">Blog</h3>
+    <div id="app" class="container mt-md-5 py-3">
+      <h5 class="my-3">Search here</h5>
+      <AppSearch />
+      <h3 class="text-center mx-auto my-3 mt-3">Blog</h3>
       <p class="text-center">this is update for new post</p>
       <div class="container-fluid">
         <div class="row">

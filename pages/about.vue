@@ -4,9 +4,7 @@
     <div id="app" class="container mt-5">
       <h3 class="text-center mx-auto my-5">About</h3>
       <div class="container-fluid d-flex justify-content-center ps-3">
-        <div class="row">
-          nothing
-        </div>
+        <div class="row">nothing</div>
       </div>
     </div>
     <AppFooter />

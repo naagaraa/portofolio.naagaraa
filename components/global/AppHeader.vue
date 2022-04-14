@@ -18,21 +18,19 @@
 
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
-          
-              <NuxtLink class="nav-item nav-link" to="/blog">
-                Blog
-               </NuxtLink>
-     
-              <NuxtLink class="nav-item nav-link" to="/about">
-                About
-               </NuxtLink>
-           
-              <NuxtLink class="nav-item nav-link" to="/tutorial">
-                Tutorial
-               </NuxtLink>
-           
-            <a class="nav-item nav-link" href="https://www.youtube.com/channel/UCYsZhw6Mlk23Q-nUPP9t1YA" >
-                Youtube
+            <NuxtLink class="nav-item nav-link" to="/blog"> Blog </NuxtLink>
+
+            <NuxtLink class="nav-item nav-link" to="/about"> About </NuxtLink>
+
+            <NuxtLink class="nav-item nav-link" to="/tutorial">
+              Tutorial
+            </NuxtLink>
+
+            <a
+              class="nav-item nav-link"
+              href="https://www.youtube.com/channel/UCYsZhw6Mlk23Q-nUPP9t1YA"
+            >
+              Youtube
             </a>
             <!-- <b-nav-form>
               <b-form-input

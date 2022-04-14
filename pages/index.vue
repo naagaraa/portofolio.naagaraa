@@ -1,9 +1,9 @@
 <template>
   <div>
     <!-- <AppSearchInput /> -->
-    <AppHeader/>
+    <AppHeader />
     <!-- start banner -->
-    <AppBanner/>
+    <AppBanner />
     <!-- end banner -->
     <div id="app" class="container mt-5">
       <h3 class="text-center mx-auto my-5">About Topic</h3>

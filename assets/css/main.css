@@ -1,6 +1,6 @@
 .banner {
   /* background-color: rgb(14, 13, 13); */
-  background-image: url("https://images.unsplash.com/photo-1530368678098-3a2e53420976?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGJsdXJ8ZW58MHwwfDB8Ymx1ZXw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-image: url('https://images.unsplash.com/photo-1530368678098-3a2e53420976?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGJsdXJ8ZW58MHwwfDB8Ymx1ZXw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
   background-repeat: no-repeat;
   background-size: cover;
   height: 36rem;

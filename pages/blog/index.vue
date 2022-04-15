@@ -51,8 +51,6 @@
 
           <Pagination :nextPage="nextPage" :pageNo="1" urlPrefix="/blog/all" />
           
-          <adsbygoogle ad-slot="1371505380" ad-format="auto" analytics-uacct='UA-172028584-1' />
-
           <!-- </div> -->
         </div>
       </div>

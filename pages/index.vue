@@ -67,9 +67,4 @@ export default {
 }
 </script>
 
-<style>
-ins {
-    background: #bbb;
-}
-</style>
 

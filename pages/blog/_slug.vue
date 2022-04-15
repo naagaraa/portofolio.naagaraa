@@ -89,7 +89,7 @@
                   data-ad-format="auto"
                   data-full-width-responsive="true"></ins> -->
 
-              <adsbygoogle ad-slot="1371505380" ad-format="auto" analytics-uacct='UA-172028584-1' />
+              <adsbygoogle ad-slot="1371505380" ad-format="auto" analytics-uacct='UA-172028584-1'/>
 
         </div>
       </div>

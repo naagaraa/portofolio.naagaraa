@@ -5,7 +5,7 @@
     <!-- start banner -->
     <AppBanner />
     <!-- end banner -->
-    <div id="app" class="container mt-5">
+    <div id="app" class="container mt-5 mb-5">
       <h3 class="text-center mx-auto my-5">About Topic</h3>
       <div class="container-fluid d-flex justify-content-center ps-3">
         <div class="row">

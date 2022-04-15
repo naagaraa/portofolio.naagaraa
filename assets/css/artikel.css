@@ -29,13 +29,12 @@ td {
   text-align: left;
 }
 
-pre {
-  
+/* pre {
   white-space: pre-wrap;
   word-wrap: break-all;
   text-align: justify;
   font-size: 14vw;
-}
+} */
 
 h3{
   margin-top: 5vh;

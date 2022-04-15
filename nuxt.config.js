@@ -26,23 +26,12 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    // bootstrap
-    // 'fontawensome',
-    // 'bootstrap',
-    // boostrap css
-    // '~/node_modules/bootstrap/dist/css/bootstrap.min.css',
     // css file blog
     '~/assets/css/main.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    // {
-    //   src: '~/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
-    //   mode: 'client',
-    // },
-    // '~/plugins/bootstrap.js',
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -89,8 +78,6 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    // fontawensome
-    // '@nuxtjs/fontawesome',
     // google analytics
     '@nuxtjs/google-analytics',
     // google adsence
@@ -122,8 +109,8 @@ export default {
 
   'google-adsense': {
     id: process.env.GOOGLE_ADSENSE_ID || 'ca-pub-8243005452898565',
-    onPageLoad: false,
-    pageLevelAds: false,
+    onPageLoad: true,
+    pageLevelAds: true,
   },
 
   publicRuntimeConfig: {
@@ -132,26 +119,5 @@ export default {
       test: process.env.GOOGLE_ADSENSE_TEST_MODE === 'true',
     },
   },
-  // specify module rules for css and scss
-  // module: {
-  //   rules: [
-  //     {
-  //       test: /\.s[ac]ss$/i,
-  //       use: ['style-loader', 'css-loader', 'sass-loader'],
-  //     },
-  //   ],
-  // },
-
-  // use these settings to use custom css
-  // bootstrapVue: {
-  //   bootstrapCSS: false,
-  //   icons: true,
-  // },
-
-  // fontawesome: {
-  //   icons: {
-  //     solid: true,
-  //     brands: true,
-  //   },
-  // },
+ 
 }

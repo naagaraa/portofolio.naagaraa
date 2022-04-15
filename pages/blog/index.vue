@@ -48,8 +48,11 @@
               </NuxtLink>
             </div>
           </div>
+
+          <Pagination :nextPage="nextPage" :pageNo="1" urlPrefix="/blog/all" />
           
           <adsbygoogle ad-slot="1371505380" ad-format="auto" analytics-uacct='UA-172028584-1' />
+
           <!-- </div> -->
         </div>
       </div>
@@ -60,13 +63,31 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
+    const pageNo = parseInt(params.number);
+    const numArticles = 9;
+
     const articles = await $content('articles')
       .only(['title', 'description', 'img', 'slug', 'author'])
+      .where({ 
+        published: {
+          $ne: false 
+           } 
+        })
+      .limit(9)
+      .skip(9 * (pageNo - 1))
       .sortBy('createdAt', 'asc')
       .fetch()
 
+    if (!articles.length) {
+      return error({ statusCode: 404, message: 'No articles found!' })
+    }
+
+    const nextPage = articles.length === numArticles
+
     return {
+      nextPage,
       articles,
+      pageNo,
     }
   },
 }

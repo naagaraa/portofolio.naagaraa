@@ -110,7 +110,7 @@ export default {
   'google-adsense': {
     id: process.env.GOOGLE_ADSENSE_ID || 'ca-pub-8243005452898565',
     onPageLoad: true,
-    pageLevelAds: true,
+    pageLevelAds: false,
   },
 
   publicRuntimeConfig: {
@@ -119,5 +119,4 @@ export default {
       test: process.env.GOOGLE_ADSENSE_TEST_MODE === 'true',
     },
   },
- 
 }

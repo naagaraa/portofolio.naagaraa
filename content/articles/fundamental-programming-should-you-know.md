@@ -25,7 +25,7 @@ all programming language have same fundamental with difference syntax.
 3. data type and structures
 4. flow control structures (coditional and loops)
 5. object oriented programming
-6. debugging
+6. debugging skill
 7. IDEs and Coding Envirotment
 8. functional programming
 9. object oriented programming
@@ -63,5 +63,3 @@ as it is the case for any skill, it is essential to learn the basic term used in
 24. source data
 25. statement
 26. token
-
-that some you should to now, maybe in next time i'll be update the definition.

@@ -30,7 +30,7 @@
               class="nav-item nav-link"
               href="https://www.youtube.com/channel/UCYsZhw6Mlk23Q-nUPP9t1YA"
             >
-              Youtube
+              <i class="fa fa-youtube-play color-red fa-2x mx-2"></i>
             </a>
             <!-- <b-nav-form>
               <b-form-input

@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-md-2 col-xs-12">
           <div class="share">
-            <p>Share</p>
+            <!-- <p>Share</p>
             <ul>
               <li>
                 <a target="_blank" href="#">
@@ -18,7 +18,7 @@
                 </a>
               </li>
             </ul>
-            <div class="sep"></div>
+            <div class="sep"></div> -->
           </div>
         </div>
         <div class="col-md-8 col-md-offset-2 col-xs-12">

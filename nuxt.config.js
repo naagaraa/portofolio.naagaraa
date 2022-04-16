@@ -1,6 +1,4 @@
 // import theme from '@nuxt/content-theme-docs'
-// require('dotenv').config()
-
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   // for local
@@ -28,10 +26,15 @@ export default {
   css: [
     // css file blog
     '~/assets/css/main.css',
+    // font awensome
+    '~/node_modules/font-awesome/css/font-awesome.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    // font awensome
+    // 'plugins/fontawesome.js',
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -59,7 +62,7 @@ export default {
     defaultLocale: 'en',
   },
   buildModules: [
-    '@nuxtjs/dotenv',
+    '@nuxtjs/fontawesome',
     [
       '@nuxtjs/google-analytics',
       {
@@ -82,7 +85,15 @@ export default {
     '@nuxtjs/google-analytics',
     // google adsence
     '@nuxtjs/google-adsense',
+    // '@fortawesome/free-solid-svg-icons',
   ],
+
+  fontawesome: {
+    icons: {
+      solid: true,
+      brands: true,
+    },
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
@@ -119,4 +130,6 @@ export default {
       test: process.env.GOOGLE_ADSENSE_TEST_MODE === 'false',
     },
   },
+
+  // purge css setting for font awensome
 }

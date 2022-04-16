@@ -18,6 +18,7 @@
     <div id="app" class="container mt-md-5 py-3">
       <h5 class="my-3">Search here</h5>
       <AppSearch />
+
       <h3 class="text-center mx-auto my-3 mt-3">Blog</h3>
       <p class="text-center">this is update for new post</p>
       <div class="container-fluid">
@@ -39,17 +40,17 @@
                   alt="Sample Title"
                 /> -->
               <div class="card-body">
-                <h6 class="card-title text-center">{{ article.title }}</h6>
+                <h6 class="card-title text-center">{{ article.title.substring(0,26) }}</h6>
                 <span class="d-none d-sm-block card-text text-center text-small"
                   >by {{ article.author.name }}</span
                 >
-                <p class="card-text mt-3">{{ article.description }}</p>
+                <p class="card-text mt-3">{{ article.description.substring(0,58) }}</p>
               </div>
               </NuxtLink>
             </div>
           </div>
 
-          <Pagination :nextPage="nextPage" :pageNo="1" urlPrefix="/blog/all" />
+          <!-- <Pagination :nextPage="nextPage" :pageNo="1" urlPrefix="/blog/all" /> -->
           
           <!-- </div> -->
         </div>

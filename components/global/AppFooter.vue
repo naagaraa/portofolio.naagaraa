@@ -49,14 +49,14 @@
             >
               <i class="fa fa-dribbble fa-2x mx-2"></i>
             </a>
-            <a
+            <!-- <a
               class="text-muted"
               href="https://www.instagram.com/naagaraa/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i class="fa fa-instagram fa-2x mx-2"></i>
-            </a>
+            </a> -->
           </div>
         </div>
         <div class="row mt-3 d-flex justify-content-end">

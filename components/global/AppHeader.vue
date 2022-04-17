@@ -24,6 +24,8 @@
             
             <NuxtLink class="nav-item nav-link" to="/about"> About </NuxtLink>
 
+            <NuxtLink class="nav-item nav-link" to="/hire-me"> Hire Me </NuxtLink>
+
             <NuxtLink class="nav-item nav-link" to="/tutorial">
               Tutorial
             </NuxtLink>

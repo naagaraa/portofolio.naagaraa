@@ -5,7 +5,7 @@ toc: Array
 title: Learn Programing in the First Time
 description: quickly learn programing for fist time on campus
 profile: /img.jpg
-img: https://images.unsplash.com/photo-1618335829737-2228915674e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
+img: https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
 alt: Learn Programing for First Time
 author:
   name: Miyuki Nagara

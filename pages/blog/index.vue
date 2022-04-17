@@ -20,31 +20,31 @@
       <AppSearch />
 
       <h3 class="text-center mx-auto my-3 mt-3">Blog</h3>
-      <p class="text-center">this is update for new post</p>
+      <p class="text-center mb-5">personal blog, I think they need know about me and what i'm doing in day by days i programming</p>
       <div class="container-fluid">
         <div class="row">
           <!-- <div  > -->
           <div
-            class="col col-md-4 col-lg-3 mb-4"
+            class="col-12 col-md-3 col-lg-3 mb-4"
             v-for="article of articles"
             :key="article.slug"
           >
             <div class="card mx-auto text-center">
               <NuxtLink
-                class="nav-link text-dark"
+                class="text-dark nuxt-link"
                 :to="{ name: 'blog-slug', params: { slug: article.slug } }"
               >
-                <!-- <img
-                  class="card-img-top img-thumbnail"
+                <img
+                  class="d-none d-sm-block card-img-top"
                   :src="article.img"
                   alt="Sample Title"
-                /> -->
+                />
               <div class="card-body">
                 <h6 class="card-title text-center">{{ article.title.substring(0,26) }}</h6>
-                <span class="d-none d-sm-block card-text text-center text-small"
+                <!-- <span class="d-none d-sm-block card-text text-center text-small"
                   >by {{ article.author.name }}</span
-                >
-                <p class="card-text mt-3">{{ article.description.substring(0,58) }}</p>
+                > -->
+                <p class="card-text mt-3 mb-5">{{ article.description.substring(0,50) }}</p>
               </div>
               </NuxtLink>
             </div>
@@ -92,4 +92,13 @@ export default {
 }
 </script>
 <style>
+.card-body{
+  height: 24vh;
+  overflow: hidden;
+  padding-bottom: 20px!important;
+}
+
+.nuxt-link{
+  text-decoration: none !important;
+}
 </style>

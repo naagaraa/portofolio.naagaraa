@@ -5,7 +5,7 @@ toc: Array
 title: Fundamental Programing should you know
 description: Framework what i choose in first timeFundamental Programing should you know before chosee any framework
 profile: /img.jpg
-img: https://images.unsplash.com/photo-1618335829737-2228915674e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
+img: https://images.unsplash.com/photo-1580121458446-7c88f27cf343?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80
 alt: Fundamental Programing should you know
 author:
   name: Miyuki Nagara

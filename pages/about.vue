@@ -16,53 +16,7 @@
             <p>Im not good programmer or software enggineer, but i love learn, literarrly programmer is problem solving, good in learn somethink and very fast. like this. i'm learn vuejs for 2 week and migration my old website. if i'm build from zero it's will make a lot of time for finish</p>
           </div>
         </div>
-         <div class="row mt-3">
-          <div class="col text-center">
-            <h2>Project</h2>
-            <p>do you have project ?, sure, but is not apps, because i love developpent, i just making tools, like libraries php, or just simple framework MVC, just just shell script with bash. why you not make apps for user ? hmm, i'm interest but my experience is enought for that's. i need more research system requirements for the project. it take a lot of time haha, okey check in this card below, what i make for more than 3 years ++ start from while i join in univercity</p>
-          </div>
-        </div>
-         <div class="row mt-3">
-          <div class="col mt-5 text-center mx-auto">
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <h5>mini mvc php native</h5>
-                <p class="card-text">This native Framework PHP, MVC and OOP, it's can install with composer click <a href="https://github.com/naagaraa/mini-mvc-php-native" target="_blank" > here </a>  for more detail</p>
-              </div>
-            </div>
-          </div>
-          <div class="col mt-5 text-center mx-auto">
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <h5>metode skripsi</h5>
-                <p class="card-text">This Libraries PHP for Algorithm most used for skripsi like math, it's not finish, still need maintenance. and this publish at packagist.org <a href="https://github.com/naagaraa/metode-skripsi" target="_blank" > here </a>  for more detail</p>
-              </div>
-            </div>
-          </div>
-          <div class="col mt-5 text-center mx-auto">
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <h5>Shell Script</h5>
-                <p class="card-text">This is just Personal Tools for setup developpent while I'm used Linux like ubuntu, for install LAMP Stack or another tools development what used. <a href="https://github.com/naagaraa/bash-shell-toolkit" target="_blank" > here </a>  for more detail</p>
-              </div>
-            </div>
-          </div>
-          <div class="col mt-5 text-center mx-auto">
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <h5>Orion Scanner</h5>
-                <p class="card-text">This Final Project Makes System Detection Of simarity in document, build with my peronal native framekwork and my personal laibraries <a href="https://github.com/naagaraa/orion-scanner" target="_blank" > here </a>  for more detail</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
-       <div class="row mt-3">
-          <div class="col text-center">
-            <h2>Project - Apps</h2>
-            <p>Still Progress and Comming Soon, may be when it's not is not public Access hahaha</p>
-          </div>
-        </div>
       <div class="row mt-3">
           <div class="col text-center">
             <h2>Connect</h2>

@@ -5,7 +5,7 @@ toc: Array
 title: Javascript Framework
 description: Frontend populer in Javascript and you must to know, what is thats
 profile: /img.jpg
-img: https://images.unsplash.com/photo-1618335829737-2228915674e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
+img: https://matob.web.id/random/wp-content/uploads/sites/2/2021/12/JS-LOGO.png
 alt: Javascript Framework
 author:
   name: Miyuki Nagara

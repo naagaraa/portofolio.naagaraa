@@ -20,6 +20,8 @@
           <b-navbar-nav class="ml-auto">
             <NuxtLink class="nav-item nav-link" to="/blog"> Blog </NuxtLink>
 
+            <NuxtLink class="nav-item nav-link" to="/portofolio"> Portofolio </NuxtLink>
+            
             <NuxtLink class="nav-item nav-link" to="/about"> About </NuxtLink>
 
             <NuxtLink class="nav-item nav-link" to="/tutorial">

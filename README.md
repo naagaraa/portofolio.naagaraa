@@ -1,6 +1,6 @@
 # client
 
-this old project build from rect sj translate to vuejs
+this old project build from reactjs translate to nuxtjs
 
 ## Build Setup
 

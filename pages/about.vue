@@ -1,7 +1,7 @@
 <template lang="">
   <div>
     <AppHeader />
-    <div id="app" class="container mt-5">
+    <div id="app" class="container mt-5 pt-5">
       <h3 class="text-center mx-auto my-5">About</h3>
       <div class="container-fluid justify-content-center ps-3">
         <div class="row">

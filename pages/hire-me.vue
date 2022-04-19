@@ -1,7 +1,7 @@
 <template lang="">
    <div>
       <AppHeader />
-    <div id="app" class="container mt-5">
+    <div id="app" class="container mt-5 pt-5">
       <div class="container-fluid justify-content-center ps-3">
         <div class="row mt-3">
           <div class="col text-center">

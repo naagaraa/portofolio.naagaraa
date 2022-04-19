@@ -25,6 +25,7 @@
           </div>
         </div>
       </div>
+      <AppButtonScroll />
     </div>
     <AppFooter />
   </div>

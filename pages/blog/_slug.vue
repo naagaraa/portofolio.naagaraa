@@ -28,15 +28,13 @@
             <div class="row post-top-meta">
               <div class="col-md-2 d-flex">
                 <a target="_blank" href="https://github.com/naagaraa">
-                  <img
-                    class="author-thumb"
-                    :src="article.profile"
-                    alt="Sal"
-                  />
+                  <img class="author-thumb" :src="article.profile" alt="Sal" />
                 </a>
               </div>
               <div class="col-md-10">
-                <NuxtLink class="link-dark" to="/about"> Miyuki Nagara </NuxtLink>
+                <NuxtLink class="link-dark" to="/about">
+                  Miyuki Nagara
+                </NuxtLink>
                 <span class="author-description">
                   {{ article.author.bio }}
                 </span>
@@ -52,11 +50,6 @@
             </h1>
             <span>Post updated at {{ formatDate(article.updatedAt) }}</span>
           </div>
-          <!-- <img
-              class="featured-image img-fluid"
-              :src="assets/img/demopic/10.jpg"
-              alt=""
-            /> -->
           <div class="article-post">
             <article>
               <nuxt-content
@@ -64,7 +57,9 @@
                 :document="article"
               />
             </article>
+          <AppButtonScroll />
           </div>
+
           <!-- <div class="after-post-tags">
               <ul class="tags">
                 <li>
@@ -81,16 +76,17 @@
                 </li>
               </ul>
             </div> -->
-              <!-- footer ads -->
-              <!-- <ins class="adsbygoogle"
-                  style="display:block"
-                  data-ad-client="ca-pub-8243005452898565"
-                  data-ad-slot="1371505380"
-                  data-ad-format="auto"
-                  data-full-width-responsive="true"></ins> -->
+          <!-- footer ads -->
+          <ins
+            class="adsbygoogle"
+            style="display: block"
+            data-ad-client="ca-pub-8243005452898565"
+            data-ad-slot="1371505380"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
 
-              <adsbygoogle ad-slot="1371505380" ad-format="auto" analytics-uacct='UA-172028584-1'/>
-
+          <!-- <adsbygoogle ad-slot="1371505380" ad-format="auto" analytics-uacct='UA-172028584-1'/> -->
         </div>
       </div>
     </div>
@@ -102,8 +98,13 @@
 import '../../assets/css/artikel.css'
 import AppHeader from '../../components/global/AppHeader.vue'
 import AppFooter from '../../components/global/AppFooter.vue'
+import AppButtonScroll from '../../components/global/AppButtonScroll.vue'
 
 export default {
+  mounted() {
+    ;(adsbygoogle = window.adsbygoogle || []).push({})
+    console.log('run ads by google')
+  },
   async asyncData({ $content, params }) {
     const article = await $content('articles', params.slug).fetch()
     return { article }
@@ -111,15 +112,21 @@ export default {
   components: {
     AppHeader,
     AppFooter,
+    AppButtonScroll,
   },
   methods: {
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       return new Date(date).toLocaleDateString('en', options)
     },
-    debug (event) {
+    debug(event) {
       console.log(event.target.name)
-    }
+    },
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+      })
+    },
   },
   head() {
     let article = this.article
@@ -148,12 +155,20 @@ export default {
           content: `${this.$config.baseURL}${this.$route.path}`,
         },
       ],
+      // script : [
+      //   {
+      //     src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8243005452898565",
+      //     async: "true",
+      //     crossorigin:"anonymous"
+      //   }
+      // ]
     }
   },
+  scrollToTop: true,
 }
 </script>
 <style>
 ins {
-    background: #bbb;
+  background: #bbb;
 }
 </style>

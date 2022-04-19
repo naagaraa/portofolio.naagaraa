@@ -55,6 +55,7 @@
                 </div>
               </NuxtLink>
             </div>
+          <AppButtonScroll />
           </div>
 
           <!-- <Pagination :nextPage="nextPage" :pageNo="1" urlPrefix="/blog/all" /> -->

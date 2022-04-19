@@ -1,6 +1,6 @@
 <template lang="">
   <div>
-    <form class="d-flex">
+    <form class="d-flex mt-5">
       <input
         v-model="searchQuery"
         type="search"

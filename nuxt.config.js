@@ -1,5 +1,9 @@
 // import theme from '@nuxt/content-theme-docs'
 export default {
+  mounted() {
+    ;(adsbygoogle = window.adsbygoogle || []).push({})
+    console.log('run ads by google')
+  },
   // Target: https://go.nuxtjs.dev/config-target
   // for local
   target: 'static',
@@ -19,6 +23,13 @@ export default {
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
+    // script: [
+    //   {
+    //     src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8243005452898565',
+    //     async: 'true',
+    //     crossorigin: 'anonymous',
+    //   },
+    // ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
@@ -84,7 +95,7 @@ export default {
     // google analytics
     '@nuxtjs/google-analytics',
     // google adsence
-    '@nuxtjs/google-adsense',
+    // '@nuxtjs/google-adsense',
     // '@fortawesome/free-solid-svg-icons',
   ],
 
@@ -118,18 +129,18 @@ export default {
     },
   },
 
-  'google-adsense': {
-    id: process.env.GOOGLE_ADSENSE_ID || 'ca-pub-8243005452898565',
-    onPageLoad: false,
-    pageLevelAds: false,
-  },
+  // 'google-adsense': {
+  //   id: process.env.GOOGLE_ADSENSE_ID || 'ca-pub-8243005452898565',
+  //   onPageLoad: false,
+  //   pageLevelAds: false,
+  // },
 
-  publicRuntimeConfig: {
-    'google-adsense': {
-      id: process.env.GOOGLE_ADSENSE_ID || 'ca-pub-8243005452898565',
-      test: process.env.GOOGLE_ADSENSE_TEST_MODE === 'false',
-    },
-  },
+  // publicRuntimeConfig: {
+  //   'google-adsense': {
+  //     id: process.env.GOOGLE_ADSENSE_ID || 'ca-pub-8243005452898565',
+  //     test: process.env.GOOGLE_ADSENSE_TEST_MODE === 'false',
+  //   },
+  // },
 
   // purge css setting for font awensome
 }

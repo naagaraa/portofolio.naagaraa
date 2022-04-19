@@ -1,6 +1,7 @@
 # client
 
-this old project build from reactjs translate to nuxtjs
+this old project build from reactjs translate to nuxtjs,
+ssr website
 
 ## Build Setup
 

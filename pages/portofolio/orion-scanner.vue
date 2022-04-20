@@ -15,25 +15,30 @@
     </ul> -->
     <!-- <pre>{{ articles }}</pre> -->
     <AppHeader />
-   <div id="app" class="container mt-md-5 py-3">
-      <div class="container container-porto">
-        <div class="row mt-4">
+    <div id="app" class="container mt-md-5 py-3">
+      <div class="container">
+        <div class="row mt-5">
           <div class="col">
-            <img
+              <img
+              loading="lazy"
               src="/orion-1.png"
-              class="mt-5 img-fluid mx-auto d-block"
+              class="mt-5 img-fluid"
+              alt="banner"
+            />
+              <img
+              loading="lazy"
+              src="/orion-2.png"
+              class="mt-5 img-fluid"
               alt="banner"
             />
           </div>
         </div>
-
-        <div class="row mt-4">
+        <div class="row mt-5">
           <div class="col">
-            <!-- <h2 class="text-center" >MINI MVC PHP NATIVE</h2> -->
             <ul class="list-group mt-4">
-              <li class="list-group-item">Title : orion scanner</li>
-              <li class="list-group-item">Tag : web apps, string matching, project</li>
-              <li class="list-group-item">Language : PHP</li>
+              <li class="list-group-item">Title : Orion Scanner</li>
+              <li class="list-group-item">Tag : web apps, project, native</li>
+              <li class="list-group-item">Language : PHP, PHP7</li>
               <li class="list-group-item">
                 Source :
                 <a href="https://github.com/naagaraa/mini-mvc-php-native"
@@ -41,39 +46,24 @@
                 >
               </li>
             </ul>
-            <h3>Description</h3>
-            <p>
-             what is orion ? orion this my final project in my univercity. this is original build from my framework mini mvc php native in lates version. i'm open source source for this project. orion scanner is simple sistem similarity index detection for text, and document implementation algoritm winnowing and rabin karp for comparison. the algorithm i save in difference program. i'm making stand alone for algorithm at metode-skrisi. that's stand alone algorithm you can installed with composer, package manager for php.
-            </p>
-            <h3>Installation</h3>
-             <p>you can install with clone repo like this : </p>
-            <p><b>git clone https://github.com/naagaraa/orion-scanner.git</b></p>
-            <p>
-              or you can check more detail about this project in this link below
-            </p>
-            <h3>Documentation</h3>
-             <p>and this Documentation for this project, I'm not only build but I'm also write Documentation, because Documentation is very important, maybe it can say technical writer job. but in this docs</p>
-            <p>
-              <a href="https://github.com/naagaraa/orion-scanner"
-                >github</a
-              >
-            </p>
-            <h3>Screen Shoot</h3>
-              <img
-                src="/orion-1.png"
-                class="mt-5 img-fluid mx-auto d-block"
-                alt="banner"
-              />
-              <span class="d-block text-center">login page</span>
-              <img
-                src="/orion-2.png"
-                class="mt-5 img-fluid mx-auto d-block"
-                alt="banner"
-              />
-              <span class="d-block text-center" >scanner page</span>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col">
+            <h3  class="mt-3">Description</h3>
+            <p>what is orion ? orion this my final project in my univercity. this is original build from my framework mini mvc php native in lates version. i'm open source source for this project. orion scanner is simple sistem similarity index detection for text, and document implementation algoritm winnowing and rabin karp for comparison. the algorithm i save in difference program. i'm making stand alone for algorithm at metode-skrisi. that's stand alone algorithm you can installed with composer, package manager for php.</p>
+            <h3  class="mt-3">Documentation</h3>
+            <ul>
+              <li>
+                <a target="_blank" href="https://github.com/naagaraa/orion-scanner#orion-scanner-project"
+                  >github</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </div>
+      <AppButtonScroll />
     </div>
     <AppFooter />
   </div>
@@ -83,8 +73,9 @@ export default {
   
 }
 </script>
-<style>
-.container-porto{
-  width: 50em;
-}
+<style scoped >
+  .container p {
+    font-size: 14px !important;
+    text-align: justify;
+  }
 </style>

@@ -168,7 +168,7 @@ export default {
 }
 </script>
 <style>
-ins {
+/* ins {
   background: #bbb;
-}
+} */
 </style>

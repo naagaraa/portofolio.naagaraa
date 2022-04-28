@@ -1,11 +1,6 @@
-# client
-
-this old project build from reactjs translate to nuxtjs,
-ssr website
+# portofolio.nagara
 
 ## Build Setup
-
-create directory dist
 
 ```bash
 # install dependencies

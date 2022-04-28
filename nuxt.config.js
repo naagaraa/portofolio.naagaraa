@@ -1,14 +1,6 @@
-// import theme from '@nuxt/content-theme-docs'
 export default {
-  mounted() {
-    ;(adsbygoogle = window.adsbygoogle || []).push({})
-    console.log('run ads by google')
-  },
   // Target: https://go.nuxtjs.dev/config-target
-  // for local
   target: 'static',
-  // for server
-  // target: 'server',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -23,14 +15,7 @@ export default {
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    // script: [
-    //   {
-    //     src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8243005452898565',
-    //     async: 'true',
-    //     crossorigin: 'anonymous',
-    //   },
-    // ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: '', href: '/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -42,38 +27,15 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    // font awensome
-    // 'plugins/fontawesome.js',
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  docs: {
-    primaryColor: '#E24F55',
-  },
-  loading: { color: '#00CD81' },
-  i18n: {
-    locales: () => [
-      {
-        code: 'fr',
-        iso: 'fr-FR',
-        file: 'fr-FR.js',
-        name: 'Français',
-      },
-      {
-        code: 'en',
-        iso: 'en-US',
-        file: 'en-US.js',
-        name: 'English',
-      },
-    ],
-    defaultLocale: 'en',
-  },
   buildModules: [
-    '@nuxtjs/fontawesome',
+    // https://go.nuxtjs.dev/eslint
+    '@nuxtjs/eslint-module',
     [
       '@nuxtjs/google-analytics',
       {
@@ -94,17 +56,7 @@ export default {
     '@nuxt/content',
     // google analytics
     '@nuxtjs/google-analytics',
-    // google adsence
-    // '@nuxtjs/google-adsense',
-    // '@fortawesome/free-solid-svg-icons',
   ],
-
-  fontawesome: {
-    icons: {
-      solid: true,
-      brands: true,
-    },
-  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
@@ -123,24 +75,5 @@ export default {
   content: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-    babel: {
-      compact: true,
-    },
-  },
-
-  // 'google-adsense': {
-  //   id: process.env.GOOGLE_ADSENSE_ID || 'ca-pub-8243005452898565',
-  //   onPageLoad: false,
-  //   pageLevelAds: false,
-  // },
-
-  // publicRuntimeConfig: {
-  //   'google-adsense': {
-  //     id: process.env.GOOGLE_ADSENSE_ID || 'ca-pub-8243005452898565',
-  //     test: process.env.GOOGLE_ADSENSE_TEST_MODE === 'false',
-  //   },
-  // },
-
-  // purge css setting for font awensome
+  build: {},
 }

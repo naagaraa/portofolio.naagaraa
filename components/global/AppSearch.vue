@@ -2,20 +2,20 @@
   <div>
     <form class="d-flex mt-5">
       <input
+        id="find_text"
         v-model="searchQuery"
         type="search"
         autocomplete="off"
         class="form-control me-2 search-box"
         placeholder="Wanna try find something?"
         aria-label="Search"
-        id="find_text"
       />
     </form>
-    <ul class="list-group" v-if="articles.length">
+    <ul v-if="articles.length" class="list-group">
       <li
-        class="list-group-item nav-item bg-dark"
         v-for="article of articles"
         :key="article.slug"
+        class="list-group-item nav-item bg-dark"
       >
         <NuxtLink
           class="nav-link text-white"

@@ -9,12 +9,12 @@ License: https://www.wowthemes.net/freebies-license/
 } */
 table {
   margin-top: 3vh;
-    border: 1px solid #ccc;
-    border-collapse: collapse;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    table-layout: fixed;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
 }
 
 table,
@@ -36,12 +36,12 @@ td {
   font-size: 14vw;
 } */
 
-h3{
+h3 {
   margin-top: 5vh;
   margin-bottom: 2vh;
 }
 
-img{
+img {
   width: 100%;
   height: auto;
 }

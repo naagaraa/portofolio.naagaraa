@@ -28,9 +28,9 @@
         <div class="row">
           <!-- <div  > -->
           <div
-            class="col-12 col-md-3 col-lg-3 mb-4"
             v-for="article of articles"
             :key="article.slug"
+            class="col-12 col-md-3 col-lg-3 mb-4"
           >
             <div class="card mx-auto text-center">
               <NuxtLink
@@ -55,7 +55,7 @@
                 </div>
               </NuxtLink>
             </div>
-          <AppButtonScroll />
+            <AppButtonScroll />
           </div>
 
           <!-- <Pagination :nextPage="nextPage" :pageNo="1" urlPrefix="/blog/all" /> -->
@@ -69,6 +69,7 @@
 </template>
 <script>
 export default {
+  name: 'BlogView',
   async asyncData({ $content, params }) {
     const pageNo = parseInt(params.number)
     const numArticles = 9
@@ -85,6 +86,8 @@ export default {
       .sortBy('createdAt', 'asc')
       .fetch()
 
+    // check if have error code
+    let error
     if (!articles.length) {
       return error({ statusCode: 404, message: 'No articles found!' })
     }
@@ -108,7 +111,7 @@ export default {
 
 @media (max-width: 400px) {
   .card-img-top {
-    height: 10vh!important;
+    height: 10vh !important;
   }
 }
 

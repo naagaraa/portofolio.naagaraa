@@ -4,14 +4,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'miyuki nagara',
+    title: 'Dev journey - Yuki',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: 'developper story and journey',
+        content: 'developper story and my journey in software engineering',
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
@@ -36,6 +36,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxtjs/pwa',
     [
       '@nuxtjs/google-analytics',
       {

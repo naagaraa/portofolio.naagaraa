@@ -19,7 +19,7 @@
       <div class="container">
         <div class="row mt-5">
           <div class="col">
-              <img
+            <img
               loading="lazy"
               src="https://upload.wikimedia.org/wikipedia/commons/f/f0/FreeBSD_10_vi_RC_Firewall.png"
               class="mt-5 img-fluid"
@@ -44,12 +44,19 @@
         </div>
         <div class="row mt-5">
           <div class="col">
-            <h3  class="mt-3">Description</h3>
-            <p>bash shell script collection is a repository for development tools with script automation for help fast setting up machine, it's minimalize for installation one by one. when i'am used linux distribution for development.</p>
-            <h3  class="mt-3">Documentation</h3>
+            <h3 class="mt-3">Description</h3>
+            <p>
+              bash shell script collection is a repository for development tools
+              with script automation for help fast setting up machine, it's
+              minimalize for installation one by one. when i'am used linux
+              distribution for development.
+            </p>
+            <h3 class="mt-3">Documentation</h3>
             <ul>
               <li>
-                <a target="_blank" href="https://github.com/naagaraa/bash-shell-toolkit#bash-shell-script-collection"
+                <a
+                  target="_blank"
+                  href="https://github.com/naagaraa/bash-shell-toolkit#bash-shell-script-collection"
                   >github</a
                 >
               </li>
@@ -63,13 +70,11 @@
   </div>
 </template>
 <script>
-export default {
-  
-}
+export default {}
 </script>
-<style scoped >
-  .container p {
-    font-size: 14px !important;
-    text-align: justify;
-  }
+<style scoped>
+.container p {
+  font-size: 14px !important;
+  text-align: justify;
+}
 </style>

@@ -1,6 +1,10 @@
 <template lang="">
   <div>
-    <b-navbar toggleable="lg" type="dark" class="fixed-top navbar-dark bg-custom">
+    <b-navbar
+      toggleable="lg"
+      type="dark"
+      class="fixed-top navbar-dark bg-custom"
+    >
       <b-container>
         <!-- Content here -->
         <b-navbar-brand>
@@ -20,14 +24,18 @@
           <b-navbar-nav class="ml-auto">
             <NuxtLink class="nav-item nav-link" to="/blog"> Blog </NuxtLink>
 
-            <NuxtLink class="nav-item nav-link" to="/portofolio"> Portofolio </NuxtLink>
-            
+            <NuxtLink class="nav-item nav-link" to="/portofolio">
+              Portofolio
+            </NuxtLink>
+
             <NuxtLink class="nav-item nav-link" to="/about"> About </NuxtLink>
 
-            <NuxtLink class="nav-item nav-link" to="/hire-me"> Hire Me </NuxtLink>
+            <NuxtLink class="nav-item nav-link" to="/hire-me">
+              Hire Me
+            </NuxtLink>
 
-            <NuxtLink class="nav-item nav-link" to="/tutorial">
-              Tutorial
+            <NuxtLink class="nav-item nav-link" to="/resource">
+              Resource
             </NuxtLink>
 
             <a

@@ -19,13 +19,13 @@
       <div class="container">
         <div class="row mt-5">
           <div class="col">
-              <img
+            <img
               loading="lazy"
               src="/orion-1.png"
               class="mt-5 img-fluid"
               alt="banner"
             />
-              <img
+            <img
               loading="lazy"
               src="/orion-2.png"
               class="mt-5 img-fluid"
@@ -50,12 +50,23 @@
         </div>
         <div class="row mt-5">
           <div class="col">
-            <h3  class="mt-3">Description</h3>
-            <p>what is orion ? orion this my final project in my univercity. this is original build from my framework mini mvc php native in lates version. i'm open source source for this project. orion scanner is simple sistem similarity index detection for text, and document implementation algoritm winnowing and rabin karp for comparison. the algorithm i save in difference program. i'm making stand alone for algorithm at metode-skrisi. that's stand alone algorithm you can installed with composer, package manager for php.</p>
-            <h3  class="mt-3">Documentation</h3>
+            <h3 class="mt-3">Description</h3>
+            <p>
+              what is orion ? orion this my final project in my univercity. this
+              is original build from my framework mini mvc php native in lates
+              version. i'm open source source for this project. orion scanner is
+              simple sistem similarity index detection for text, and document
+              implementation algoritm winnowing and rabin karp for comparison.
+              the algorithm i save in difference program. i'm making stand alone
+              for algorithm at metode-skrisi. that's stand alone algorithm you
+              can installed with composer, package manager for php.
+            </p>
+            <h3 class="mt-3">Documentation</h3>
             <ul>
               <li>
-                <a target="_blank" href="https://github.com/naagaraa/orion-scanner#orion-scanner-project"
+                <a
+                  target="_blank"
+                  href="https://github.com/naagaraa/orion-scanner#orion-scanner-project"
                   >github</a
                 >
               </li>
@@ -69,13 +80,11 @@
   </div>
 </template>
 <script>
-export default {
-  
-}
+export default {}
 </script>
-<style scoped >
-  .container p {
-    font-size: 14px !important;
-    text-align: justify;
-  }
+<style scoped>
+.container p {
+  font-size: 14px !important;
+  text-align: justify;
+}
 </style>

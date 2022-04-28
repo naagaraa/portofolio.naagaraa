@@ -1,13 +1,13 @@
 <template lang="">
   <div>
     <input
+      id="find_text"
       v-model="searchQuery"
       type="search"
       autocomplete="off"
       class="form-control me-2 search-box"
       placeholder="Wanna try find something?"
       aria-label="Search"
-      id="find_text"
     />
     <ul v-if="articles.length">
       <li v-for="article of articles" :key="article.slug">

@@ -19,7 +19,7 @@
       <div class="container">
         <div class="row mt-5">
           <div class="col">
-              <img
+            <img
               loading="lazy"
               src="/mini-mvc.png"
               class="mt-5 img-fluid"
@@ -44,8 +44,9 @@
         </div>
         <div class="row mt-5">
           <div class="col">
-            <h3  class="mt-3">Description</h3>
-            <p>Hi, this project was created from my practice of learning web
+            <h3 class="mt-3">Description</h3>
+            <p>
+              Hi, this project was created from my practice of learning web
               programming from various sources on the internet such as youtube,
               stackoverflow and github. This project is a native php created
               using the MVC pattern with the concept of OOP (Object Oriented
@@ -58,16 +59,20 @@
               very difficult to fix this problem, add new methods, read
               journals, not to mention I feel like an absolute cheater. With a
               heavy heart, I decided to continue :( and this is in my project
-              portfolio</p>
-               <h3  class="mt-3">Documentation</h3>
+              portfolio
+            </p>
+            <h3 class="mt-3">Documentation</h3>
             <ul>
               <li>
-                <a href="https://github.com/naagaraa/mini-mvc-php-native#bug-and-problem"
+                <a
+                  href="https://github.com/naagaraa/mini-mvc-php-native#bug-and-problem"
                   >github</a
                 >
               </li>
               <li>
-                <a target="_blank" href="https://nagara.gitbook.io/code-zero-project/"
+                <a
+                  target="_blank"
+                  href="https://nagara.gitbook.io/code-zero-project/"
                   >gitbook</a
                 >
               </li>
@@ -82,13 +87,11 @@
 </template>
 <script>
 import '../../assets/css/main.css'
-export default {
-
-}
+export default {}
 </script>
 <style scoped>
-  .container p {
-    font-size: 14px !important;
-    text-align: justify;
-  }
+.container p {
+  font-size: 14px !important;
+  text-align: justify;
+}
 </style>

@@ -1,6 +1,6 @@
 <template lang="">
-   <div>
-      <AppHeader />
+  <div>
+    <AppHeader />
     <div id="app" class="container mt-5 pt-5">
       <div class="container-fluid justify-content-center ps-3">
         <div class="row mt-3">
@@ -12,13 +12,9 @@
       </div>
     </div>
     <AppFooter />
-   </div>
+  </div>
 </template>
 <script>
-export default {
-   
-}
+export default {}
 </script>
-<style lang="">
-   
-</style>
+<style lang=""></style>

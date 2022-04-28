@@ -57,7 +57,7 @@
                 :document="article"
               />
             </article>
-          <AppButtonScroll />
+            <AppButtonScroll />
           </div>
 
           <!-- <div class="after-post-tags">
@@ -101,35 +101,18 @@ import AppFooter from '../../components/global/AppFooter.vue'
 import AppButtonScroll from '../../components/global/AppButtonScroll.vue'
 
 export default {
-  mounted() {
-    ;(adsbygoogle = window.adsbygoogle || []).push({})
-    console.log('run ads by google')
-  },
-  async asyncData({ $content, params }) {
-    const article = await $content('articles', params.slug).fetch()
-    return { article }
-  },
   components: {
     AppHeader,
     AppFooter,
     AppButtonScroll,
   },
-  methods: {
-    formatDate(date) {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
-    },
-    debug(event) {
-      console.log(event.target.name)
-    },
-    scrollToTop() {
-      window.scrollTo({
-        top: 0,
-      })
-    },
+  scrollToTop: true,
+  async asyncData({ $content, params }) {
+    const article = await $content('articles', params.slug).fetch();
+    return { article };
   },
   head() {
-    let article = this.article
+    const article = this.article
 
     return {
       title: article.title,
@@ -164,7 +147,20 @@ export default {
       // ]
     }
   },
-  scrollToTop: true,
+  methods: {
+    formatDate(date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
+    },
+    debug(event) {
+      console.log(event.target.name)
+    },
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+      })
+    },
+  },
 }
 </script>
 <style>

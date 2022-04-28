@@ -68,7 +68,12 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
+      name: 'Dev journey - Yuki',
       lang: 'en',
+      description: 'developper story and my journey in software engineering',
+    },
+    icon: {
+      iconSrc: '~/static/icon.png',
     },
   },
 

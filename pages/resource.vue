@@ -28,7 +28,11 @@
               </a>
             </div>
             <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a class="text-dark" href="https://www.dicoding.com/" target="_blank">
+              <a
+                class="text-dark"
+                href="https://www.dicoding.com/"
+                target="_blank"
+              >
                 <div class="card mx-auto text-center">
                   <div class="card-body">
                     <h6 class="card-title text-center">Dicoding Academy</h6>
@@ -53,7 +57,11 @@
               </a>
             </div>
             <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a class="text-dark" to="https://www.w3schools.com/" target="_blank">
+              <a
+                class="text-dark"
+                to="https://www.w3schools.com/"
+                target="_blank"
+              >
                 <div class="card mx-auto text-center">
                   <div class="card-body">
                     <h6 class="card-title text-center">w3school</h6>
@@ -65,7 +73,11 @@
               </a>
             </div>
             <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a class="text-dark" to="https://javascript.info/" target="_blank">
+              <a
+                class="text-dark"
+                to="https://javascript.info/"
+                target="_blank"
+              >
                 <div class="card mx-auto text-center">
                   <div class="card-body">
                     <h6 class="card-title text-center">javascript info</h6>
@@ -114,7 +126,11 @@
               </a>
             </div>
             <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a class="text-dark" href="https://www.google.com/" target="_blank">
+              <a
+                class="text-dark"
+                href="https://www.google.com/"
+                target="_blank"
+              >
                 <div class="card mx-auto text-center">
                   <div class="card-body">
                     <h6 class="card-title text-center">google</h6>
@@ -191,7 +207,11 @@
               </a>
             </div>
             <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a class="text-dark" href="https://www.vulnhub.com/" target="_blank">
+              <a
+                class="text-dark"
+                href="https://www.vulnhub.com/"
+                target="_blank"
+              >
                 <div class="card mx-auto text-center">
                   <div class="card-body">
                     <h6 class="card-title text-center">vulnhub</h6>

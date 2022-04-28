@@ -108,8 +108,8 @@ export default {
   },
   scrollToTop: true,
   async asyncData({ $content, params }) {
-    const article = await $content('articles', params.slug).fetch();
-    return { article };
+    const article = await $content('articles', params.slug).fetch()
+    return { article }
   },
   head() {
     const article = this.article

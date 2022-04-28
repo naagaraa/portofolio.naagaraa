@@ -62,12 +62,7 @@
 </template>
 
 <script>
-import cacheControl from '../helper/cacheControl'
 export default {
   name: 'IndexView',
-  middleware: cacheControl({
-    'max-age': 60,
-    'stale-when-revalidate': 5,
-  }),
 }
 </script>

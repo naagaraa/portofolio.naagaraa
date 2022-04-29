@@ -17,7 +17,8 @@
           <div class="col">
             <p>
               Hi, I'm Miyuki you can call me Yuki Or Nagara this my username in
-              Internet for Identity but you if came from linkedln or another
+              Internet for Identity, if you look for my real name for hired, you can't find
+              at profesional social media like linkedin, but if you came from linkedln or another
               social media to here. it's my website portofolio. I'm Web
               Developper, Main Stack Is PHP and Javascript Language, for
               framework I'm Flexible use, sometime I used Code Igniter sometime
@@ -60,6 +61,22 @@
 <script>
 export default {
   name: 'AboutView',
+  head() {
+    return {
+      title: 'Dev Journey - about',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'developper story and my journey in software engineering',
+        },
+        { name: 'format-detection', content: 'telephone=no' },
+      ],
+      link: [{ rel: 'icon', type: '', href: '/favicon.ico' }],
+    }
+  },
 }
 </script>
 <style>

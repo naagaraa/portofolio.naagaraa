@@ -138,13 +138,6 @@ export default {
           content: `${this.$config.baseURL}${this.$route.path}`,
         },
       ],
-      // script : [
-      //   {
-      //     src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8243005452898565",
-      //     async: "true",
-      //     crossorigin:"anonymous"
-      //   }
-      // ]
     }
   },
   methods: {

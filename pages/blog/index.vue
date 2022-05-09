@@ -36,7 +36,7 @@
             class="col-12 col-md-3 col-lg-3 mb-4"
           >
             <div class="card mx-auto text-center">
-              <a class="text-dark nuxt-link" :href="'blog/'+article.id">
+              <a class="text-dark nuxt-link" :href="article.id">
                 <img
                   class="card-img-top"
                   :src="

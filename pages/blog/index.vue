@@ -1,45 +1,49 @@
 <template lang="">
   <div>
-    <!-- this page home blog
-    <ul>
-      <li v-for="article of articles" :key="article.slug">
-        <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
-          <img :src="article.img" />
-          <div>
-            <h2>{{ article.title }}</h2>
-            <p>by {{ article.author.name }}</p>
-            <p>{{ article.description }}</p>
-          </div>
-        </NuxtLink>
-      </li>
-    </ul> -->
-    <!-- <pre>{{ articles }}</pre> -->
+    <!-- <pre> -->
+    <!-- {{articles}} -->
+    <!-- <div v-for="item in articles" :key="item.index">
+      <ul>
+        <li>{{ item.id }}</li>
+        <li>{{ item.title }}</li>
+        <li>{{ item.description }}</li> -->
+    <!-- <li>
+                  <img :src="item.cover_image !== null ? item.cover_image : 'https://i.stack.imgur.com/cK3LL.png'" />
+               </li> -->
+    <!-- <li>
+          <a :href="'journey/' + item.id">detail</a>
+        </li>
+      </ul>
+    </div> -->
+    <!-- </pre> -->
     <AppHeader />
     <div id="app" class="container mt-md-5 py-3">
-      <h5 class="my-3">Search here</h5>
-      <AppSearch />
+      <!-- <h5 class="my-3">Search here</h5> -->
+      <!-- <AppSearch /> -->
 
       <h3 class="text-center mx-auto my-3 mt-3">Blog</h3>
       <p class="text-center mb-5">
-        personal blog, I think they need know about me and what i'm doing in day
-        by days i programming
+        personal Dev Story, I think they need know about me and what i'm doing
+        in day by days i programming
       </p>
       <div class="container-fluid">
         <div class="row">
           <!-- <div  > -->
+          <!-- mark down blog -->
           <div
             v-for="article of articles"
             :key="article.slug"
             class="col-12 col-md-3 col-lg-3 mb-4"
           >
             <div class="card mx-auto text-center">
-              <NuxtLink
-                class="text-dark nuxt-link"
-                :to="{ name: 'blog-slug', params: { slug: article.slug } }"
-              >
+              <a class="text-dark nuxt-link" :href="'blog/'+article.id">
                 <img
                   class="card-img-top"
-                  :src="article.img"
+                  :src="
+                    article.cover_image !== null
+                      ? article.cover_image
+                      : 'https://caraguna.com/wp-content/uploads/2022/02/perbedaan-programmer-dan-developer.jpg'
+                  "
                   alt="Sample Title"
                 />
                 <div class="card-body">
@@ -53,7 +57,7 @@
                     {{ article.description.substring(0, 50) }}
                   </p>
                 </div>
-              </NuxtLink>
+              </a>
             </div>
             <AppButtonScroll />
           </div>
@@ -68,70 +72,35 @@
   </div>
 </template>
 <script>
+import axios from 'axios'
 export default {
-  name: 'BlogView',
-  async asyncData({ $content, params }) {
-    const pageNo = parseInt(params.number)
-    const numArticles = 9
-
-    const articles = await $content('articles')
-      .only(['title', 'description', 'img', 'slug', 'author'])
-      .where({
-        published: {
-          $ne: false,
-        },
-      })
-      .limit(9)
-      .skip(9 * (pageNo - 1))
-      .sortBy('createdAt', 'asc')
-      .fetch()
-
-    // check if have error code
-    let error
-    if (!articles.length) {
-      return error({ statusCode: 404, message: 'No articles found!' })
+  name: 'JourneyPage',
+  async asyncData({ req, res, error }) {
+    const config = {
+      headers: {
+        'api-key': 'dm73KpZjoUxcKHA351zT4bUi',
+        Connection: 'keep-alive',
+        Accept: 'application/json',
+      },
+    }
+    const url = 'https://dev.to/api/articles/'
+    const devto = await axios.get(`${url}me/published`, config)
+    console.log(devto.status === 200)
+    if (devto.status !== 200) {
+      return {
+        statusCode: devto.status,
+        message: devto.statusText,
+      }
     }
 
-    const nextPage = articles.length === numArticles
+    if (devto.status === 200) {
+      return {
+        articles: devto.data,
+      }
+    }
 
-    return {
-      nextPage,
-      articles,
-      pageNo,
-    }
-  },
-  head() {
-    return {
-      title: 'Dev Journey - blog',
-      meta: [
-        { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'developper story and my journey in software engineering',
-        },
-        { name: 'format-detection', content: 'telephone=no' },
-      ],
-      link: [{ rel: 'icon', type: '', href: '/favicon.ico' }],
-    }
+    // console.log(devto.data);
   },
 }
 </script>
-<style>
-.card-body {
-  height: 24vh;
-  overflow: hidden;
-  padding-bottom: 20px !important;
-}
-
-@media (max-width: 400px) {
-  .card-img-top {
-    height: 10vh !important;
-  }
-}
-
-.nuxt-link {
-  text-decoration: none !important;
-}
-</style>
+<style lang=""></style>

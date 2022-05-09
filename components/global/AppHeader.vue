@@ -22,12 +22,17 @@
 
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
-            <NuxtLink class="nav-item nav-link" to="/blog"> Blog </NuxtLink>
+            <!-- <NuxtLink class="nav-item nav-link" to="/journey">
+              Journey
+            </NuxtLink> -->
+            <a class="nav-item nav-link" href="/blog"> Blog </a>
+            <NuxtLink class="nav-item nav-link" to="/dev"> Dev </NuxtLink>
 
             <NuxtLink class="nav-item nav-link" to="/portofolio">
               Portofolio
             </NuxtLink>
 
+            <NuxtLink class="nav-item nav-link" to="/services"> Services </NuxtLink>
             <NuxtLink class="nav-item nav-link" to="/about"> About </NuxtLink>
 
             <NuxtLink class="nav-item nav-link" to="/hire-me">

@@ -233,8 +233,8 @@
                   <div class="card-body">
                     <h6 class="card-title text-center">stack overflow</h6>
                     <p class="card-text mt-3 mb-5">
-                      all problem developer always put here, you can find
-                      your problem here.
+                      all problem developer always put here, you can find your
+                      problem here.
                     </p>
                   </div>
                 </div>

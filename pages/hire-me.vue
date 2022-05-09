@@ -6,7 +6,7 @@
         <div class="row mt-3">
           <div class="col text-center">
             <h2>Hire Me</h2>
-            <p>coming soon</p>
+            <button class="btn btn-dark contact" onclick="window.open('mailto:ekajayanagaraa@.com')">contact me, Now</button>
           </div>
         </div>
       </div>
@@ -34,4 +34,15 @@ export default {
   },
 }
 </script>
-<style lang=""></style>
+<style scoped>
+.btn-dark {
+  background-color: black;
+}
+  .contact {
+    color: white;
+    cursor: pointer;
+  }
+  .contact:hover {
+    color: cyan;
+  }
+</style>

@@ -36,7 +36,7 @@
             class="col-12 col-md-3 col-lg-3 mb-4"
           >
             <div class="card mx-auto text-center">
-              <NuxtLink class="text-dark nuxt-link" :to="'/blog/' + article.id">
+              <a class="text-dark nuxt-link" :href="'/blog/' + article.id">
                 <img
                   class="card-img-top"
                   :src="
@@ -57,7 +57,7 @@
                     {{ article.description.substring(0, 50) }}
                   </p>
                 </div>
-              </NuxtLink>
+              </a>
             </div>
             <AppButtonScroll />
           </div>
@@ -79,8 +79,6 @@ export default {
     const config = {
       headers: {
         'api-key': 'dm73KpZjoUxcKHA351zT4bUi',
-        Connection: 'keep-alive',
-        Accept: 'application/json',
       },
     }
     const url = 'https://dev.to/api/articles/'

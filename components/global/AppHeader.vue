@@ -25,7 +25,7 @@
             <!-- <NuxtLink class="nav-item nav-link" to="/journey">
               Journey
             </NuxtLink> -->
-            <NuxtLink class="nav-item nav-link" to="/blog"> Blog </NuxtLink>
+            <a class="nav-item nav-link" href="/blog"> Blog </a>
             <NuxtLink class="nav-item nav-link" to="/dev"> Dev </NuxtLink>
 
             <NuxtLink class="nav-item nav-link" to="/portofolio">
@@ -42,6 +42,10 @@
             <NuxtLink class="nav-item nav-link" to="/resource">
               Resource
             </NuxtLink>
+
+            <a class="nav-item nav-link" target="_blank" href="https://resume.github.io/?naagaraa">
+              Resume
+            </a>
 
             <a
               class="nav-item nav-link"

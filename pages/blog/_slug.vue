@@ -95,7 +95,6 @@ export default {
   async asyncData({ params }) {
     // console.log(params.slug);
     const slug = params.slug
-
     const config = {
       headers: {
         'api-key': 'dm73KpZjoUxcKHA351zT4bUi',
@@ -117,6 +116,34 @@ export default {
       return {
         article: devto.data,
       }
+    }
+  },
+  head() {
+    const article = this.article
+    return {
+      title: article.title,
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: article.title,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: article.img,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: article.description,
+        },
+        {
+          hid: 'og:url',
+          name: 'og:url',
+          content: `${this.$config.baseURL}${this.$route.path}`,
+        },
+      ],
     }
   },
 }

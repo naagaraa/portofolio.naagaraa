@@ -8,8 +8,8 @@
               <div class="row d-flex">
                 <div class="col-md-9">
                   <h2 class="card-title">Support Me?</h2>
-                  <p class="card-text mb-3">
-                    Kamu bisa support untuk free education IT kontent.
+                  <p class="card-text">
+                    You can support me for free education and IT kontent, click that button 
                   </p>
                 </div>
                 <div class="col-md-2 align-self-center">

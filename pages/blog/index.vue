@@ -36,7 +36,7 @@
             class="col-12 col-md-3 col-lg-3 mb-4"
           >
             <div class="card mx-auto text-center">
-              <NuxtLink class="text-dark nuxt-link" :to="'/blog/'+article.id">
+              <NuxtLink class="text-dark nuxt-link" :to="'/blog/' + article.id">
                 <img
                   class="card-img-top"
                   :src="
@@ -100,6 +100,41 @@ export default {
     }
 
     // console.log(devto.data);
+  },
+  head() {
+    const url = 'https://naagaraa.netlify.app/'
+    const article = {
+      title: 'Dev Journey - Blog',
+      image: 'dev-journey.png',
+      description:
+        "personal Dev Story, I think they need know about me and what i'm doing in day by days i programming",
+      url: 'https://naagaraa.netlify.app/blog/',
+    }
+    return {
+      title: article.title,
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: article.title,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: `${url}${article.image}`,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: article.description,
+        },
+        {
+          hid: 'og:url',
+          name: 'og:url',
+          content: `${this.$config.baseURL}${this.$route.path}`,
+        },
+      ],
+    }
   },
 }
 </script>

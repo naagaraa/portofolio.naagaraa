@@ -277,15 +277,38 @@
 <script>
 export default {
   head() {
+    const url = 'https://naagaraa.netlify.app/'
+    const article = {
+      title: 'Dev Journey - Privacy Policy',
+      image: 'dev-journey.png',
+      description:
+        "personal Dev Story, I think they need know about me and what i'm doing in day by days i programming",
+      url: 'https://naagaraa.netlify.app/blog/',
+    }
     return {
-      title: 'Dev Journey - privacy policy',
+      title: 'Dev Journey - Privacy Policy',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
-          hid: 'description',
-          name: 'description',
-          content: 'developper story and my journey in software engineering',
+          hid: 'og:title',
+          name: 'og:title',
+          content: article.title,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: `${url}${article.image}`,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: article.description,
+        },
+        {
+          hid: 'og:url',
+          name: 'og:url',
+          content: `${this.$config.baseURL}${this.$route.path}`,
         },
         { name: 'format-detection', content: 'telephone=no' },
       ],

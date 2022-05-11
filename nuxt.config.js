@@ -73,7 +73,7 @@ export default {
       description: 'developper story and my journey in software engineering',
     },
     icon: {
-      iconSrc: './favicon.ico',
+      iconSrc: '~/static/favicon.ico',
     },
   },
 

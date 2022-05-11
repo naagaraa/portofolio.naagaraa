@@ -23,7 +23,7 @@ export default {
     // css file blog
     '~/assets/css/main.css',
     // font awensome
-    '~/node_modules/font-awesome/css/font-awesome.css',
+    '~/node_modules/gfont-awesome/css/font-awesome.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

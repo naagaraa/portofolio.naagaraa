@@ -67,7 +67,7 @@ export default {
       title: 'Dev Journey - about',
       image: 'dev-journey.png',
       description:
-         "personal Dev Story, I think they need know about me and what i'm doing in day by days i programming",
+        "personal Dev Story, I think they need know about me and what i'm doing in day by days i programming",
       url: 'https://naagaraa.netlify.app/blog/',
     }
     return {

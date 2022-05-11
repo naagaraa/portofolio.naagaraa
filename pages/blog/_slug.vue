@@ -74,7 +74,6 @@
             data-ad-format="auto"
             data-full-width-responsive="true"
           ></ins>
-
         </div>
       </div>
     </div>
@@ -98,8 +97,8 @@ export default {
     const config = {
       headers: {
         'api-key': 'dm73KpZjoUxcKHA351zT4bUi',
-        'Connection': 'keep-alive',
-        'Accept': 'application/json',
+        Connection: 'keep-alive',
+        Accept: 'application/json',
       },
     }
     const url = 'https://dev.to/api/articles/'

@@ -1,6 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'server',
+  target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -15,7 +15,7 @@ export default {
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: '', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -23,7 +23,7 @@ export default {
     // css file blog
     '~/assets/css/main.css',
     // font awensome
-    '~/node_modules/gfont-awesome/css/font-awesome.css',
+    '~/node_modules/font-awesome/css/font-awesome.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -36,7 +36,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/pwa',
+    // '@nuxtjs/pwa',
     [
       '@nuxtjs/google-analytics',
       {
@@ -52,7 +52,7 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa',
+    // '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     // google analytics
@@ -73,7 +73,7 @@ export default {
       description: 'developper story and my journey in software engineering',
     },
     icon: {
-      iconSrc: '~/static/icon.png',
+      iconSrc: './favicon.ico',
     },
   },
 
@@ -82,6 +82,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    // analyze: true,
     babel: {
       compact: true,
     },

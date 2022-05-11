@@ -9,7 +9,8 @@
                 <div class="col-md-9">
                   <h2 class="card-title">Support Me?</h2>
                   <p class="card-text">
-                    You can support me for free education and IT kontent, click that button 
+                    You can support me for free education and IT kontent, click
+                    that button
                   </p>
                 </div>
                 <div class="col-md-2 align-self-center">

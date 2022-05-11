@@ -99,7 +99,7 @@ export default {
       title: 'Dev Journey - Portofolio',
       image: 'dev-journey.png',
       description:
-        "dev journey my portfolio, this is my journey to become a developer",
+        'dev journey my portfolio, this is my journey to become a developer',
       url: 'https://naagaraa.netlify.app/blog/',
     }
     return {

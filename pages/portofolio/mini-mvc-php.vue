@@ -93,8 +93,8 @@ export default {
     const article = {
       title: 'Dev Journey - portofolio - mini mvc php native',
       image: 'dev-journey.png',
-       description:
-        "dev journey my portfolio, this is my journey to become a developer",
+      description:
+        'dev journey my portfolio, this is my journey to become a developer',
       url: 'https://naagaraa.netlify.app/blog/',
     }
     return {

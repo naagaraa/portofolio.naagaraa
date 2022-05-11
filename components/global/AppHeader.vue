@@ -32,7 +32,9 @@
               Portofolio
             </NuxtLink>
 
-            <NuxtLink class="nav-item nav-link" to="/services"> Services </NuxtLink>
+            <NuxtLink class="nav-item nav-link" to="/services">
+              Services
+            </NuxtLink>
             <NuxtLink class="nav-item nav-link" to="/about"> About </NuxtLink>
 
             <NuxtLink class="nav-item nav-link" to="/hire-me">
@@ -43,7 +45,11 @@
               Resource
             </NuxtLink>
 
-            <a class="nav-item nav-link" target="_blank" href="https://resume.github.io/?naagaraa">
+            <a
+              class="nav-item nav-link"
+              target="_blank"
+              href="https://resume.github.io/?naagaraa"
+            >
               Resume
             </a>
 

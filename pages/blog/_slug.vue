@@ -118,6 +118,9 @@ export default {
       }
     }
   },
+  refresh() {
+    this.$nuxt.refresh()
+  },
   head() {
     const article = this.article
     return {

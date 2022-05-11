@@ -36,9 +36,9 @@
             class="col-12 col-md-3 col-lg-3 mb-4"
           >
             <div class="card mx-auto text-center">
-              <NuxtLink
+              <a
                 class="text-dark nuxt-link"
-                :to="'/blog/' + article.id"
+                :href="'/blog/' + article.id"
                 @click="refresh"
               >
                 <img
@@ -61,7 +61,7 @@
                     {{ article.description.substring(0, 50) }}
                   </p>
                 </div>
-              </NuxtLink>
+              </a>
             </div>
             <AppButtonScroll />
           </div>

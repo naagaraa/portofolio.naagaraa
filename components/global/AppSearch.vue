@@ -19,7 +19,7 @@
       >
         <NuxtLink
           class="nav-link text-white"
-          :to="{ name: 'blog-slug', params: { slug: article.slug } }"
+          :to="{ name: 'dev-slug', params: { slug: article.slug } }"
         >
           {{ article.title }}
         </NuxtLink>

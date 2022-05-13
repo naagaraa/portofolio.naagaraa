@@ -24,7 +24,7 @@
       <h3 class="text-center mx-auto my-3 mt-3">Blog</h3>
       <p class="text-center mb-5">
         personal Dev Story, I think they need know about me and what i'm doing
-        in day by days i programming
+        in day by days i programming. this pages consume API
       </p>
       <div class="container-fluid">
         <div class="row">

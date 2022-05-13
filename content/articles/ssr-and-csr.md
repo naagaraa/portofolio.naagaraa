@@ -12,8 +12,6 @@ author:
   bio: Learner, Fullstack Web Developper main Language PHP and Javascript, and Framework Stack Laravel, Vuejs, and for UI component I'am used Boostrap.
 ---
 
-comming soon
-
 !['image'](https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/94ac796d-f3fd-4984-8d62-5e3ca2134f13/ssg-ssr-08-ssr.png)
 
 in the past year history of my journey developemnt, I am hear the JAMSTack and much more about growing in tech, but today.

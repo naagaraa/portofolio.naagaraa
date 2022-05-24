@@ -44,7 +44,7 @@
                 <div class="card mx-auto text-center">
                   <div class="card-body">
                     <h6 class="card-title text-center">Metode Skripsi</h6>
-                    <p class="card-text mt-3 mb-5">Libraries PHP for skripsi</p>
+                    <p class="card-text mt-3 mb-5">Libraries PHP for skripsi, like algorithm SAW or Winnowing</p>
                   </div>
                 </div>
               </nuxt-link>
@@ -76,12 +76,27 @@
           </div>
           <!-- apps project -->
           <h3 class="text-center mx-auto my-3 mt-3">Project App</h3>
-          <p class="text-center mb-5">description</p>
+          <p class="text-center mb-5">this project for user used</p>
           <div class="container-fluid">
             <p>
-              this page for project application mobile, but coming soon'
-              currenlt i'am still learning
+              this page for project application mobile and webapps
             </p>
+            <div class="row">
+              <div class="col-12 col-md-3 col-lg-3 mb-4">
+                <a class="text-dark" target="_blank" href="https://whatsapp-lightning.netlify.app/">
+                  <div class="card mx-auto text-center">
+                    <div class="card-body">
+                      <h6 class="card-title text-center">
+                        Whatsapp Lightning
+                      </h6>
+                      <p class="card-text mt-3 mb-5">
+                        you can start chat in Whatsapp without save the number just copy and paste and start open chat
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

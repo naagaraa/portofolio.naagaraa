@@ -128,6 +128,7 @@ export default {
       ProjectApp: [
         {
           name: 'Whastaspp Lightning',
+          description: 'start chat whatsapp without save number just copy paste and will be redirect to whatsapp UI',
           path: 'https://whatsapp-lightning.netlify.app/',
         },
       ],

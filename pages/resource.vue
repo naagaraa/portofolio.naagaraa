@@ -15,226 +15,13 @@
       <div class="container-fluid mt-5">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a class="text-dark" href="https://udemy.com/" target="_blank">
+            <div v-for="item in resource" :key="item.id" class="col-12 col-md-3 col-lg-3 mb-4">
+              <a class="text-dark" :href="item.url" target="_blank">
                 <div class="card mx-auto text-center">
                   <div class="card-body">
-                    <h6 class="card-title text-center">Udemy</h6>
+                    <h6 class="card-title text-center">{{item.title}}</h6>
                     <p class="card-text mt-3 mb-5">
-                      good platform for paid online learning with emetode video
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a
-                class="text-dark"
-                href="https://www.dicoding.com/"
-                target="_blank"
-              >
-                <div class="card mx-auto text-center">
-                  <div class="card-body">
-                    <h6 class="card-title text-center">Dicoding Academy</h6>
-                    <p class="card-text mt-3 mb-5">
-                      good platform for paid online learning with metode reading
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a class="text-dark" href="https://dev.to/" target="_blank">
-                <div class="card mx-auto text-center">
-                  <div class="card-body">
-                    <h6 class="card-title text-center">Dev To</h6>
-                    <p class="card-text mt-3 mb-5">
-                      free artikel about dev story. a lot software engineer
-                      sharing about experince in this platform.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a
-                class="text-dark"
-                href="https://www.w3schools.com/"
-                target="_blank"
-              >
-                <div class="card mx-auto text-center">
-                  <div class="card-body">
-                    <h6 class="card-title text-center">w3school</h6>
-                    <p class="card-text mt-3 mb-5">
-                      free documentation about programming language
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a
-                class="text-dark"
-                href="https://javascript.info/"
-                target="_blank"
-              >
-                <div class="card mx-auto text-center">
-                  <div class="card-body">
-                    <h6 class="card-title text-center">javascript info</h6>
-                    <p class="card-text mt-3 mb-5">
-                      free documentation about javascript language
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a class="text-dark" href="https://roadmap.sh/" target="_blank">
-                <div class="card mx-auto text-center">
-                  <div class="card-body">
-                    <h6 class="card-title text-center">roadmap</h6>
-                    <p class="card-text mt-3 mb-5">
-                      free learning path if your wanna start new journey in
-                      software enginner
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a class="text-dark" href="http://youtube.com/" target="_blank">
-                <div class="card mx-auto text-center">
-                  <div class="card-body">
-                    <h6 class="card-title text-center">youtube</h6>
-                    <p class="card-text mt-3 mb-5">
-                      best platform for find free tutorial and learning for free
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a class="text-dark" href="https://github.com/" target="_blank">
-                <div class="card mx-auto text-center">
-                  <div class="card-body">
-                    <h6 class="card-title text-center">github</h6>
-                    <p class="card-text mt-3 mb-5">
-                      open source platform for your code
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a
-                class="text-dark"
-                href="https://www.google.com/"
-                target="_blank"
-              >
-                <div class="card mx-auto text-center">
-                  <div class="card-body">
-                    <h6 class="card-title text-center">google</h6>
-                    <p class="card-text mt-3 mb-5">
-                      search engine what you need, find anything this is tools
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a class="text-dark" href="https://owasp.org/" target="_blank">
-                <div class="card mx-auto text-center">
-                  <div class="card-body">
-                    <h6 class="card-title text-center">owasp</h6>
-                    <p class="card-text mt-3 mb-5">
-                      community platform for security risk
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a
-                class="text-dark"
-                href="https://www.exploit-db.com/google-hacking-database"
-                target="_blank"
-              >
-                <div class="card mx-auto text-center">
-                  <div class="card-body">
-                    <h6 class="card-title text-center">google exploit</h6>
-                    <p class="card-text mt-3 mb-5">
-                      google hacking database you must to know about vurnerable
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a class="text-dark" href="https://ctflearn.com/" target="_blank">
-                <div class="card mx-auto text-center">
-                  <div class="card-body">
-                    <h6 class="card-title text-center">CTF Learn</h6>
-                    <p class="card-text mt-3 mb-5">
-                      this platform free for learn about CTF (Capture the flag)
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a class="text-dark" href="https://leetcode.com/" target="_blank">
-                <div class="card mx-auto text-center">
-                  <div class="card-body">
-                    <h6 class="card-title text-center">leet code</h6>
-                    <p class="card-text mt-3 mb-5">
-                      this platform free for improve your logic algorithm and
-                      coding
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a class="text-dark" href="https://devhints.io/" target="_blank">
-                <div class="card mx-auto text-center">
-                  <div class="card-body">
-                    <h6 class="card-title text-center">devhints</h6>
-                    <p class="card-text mt-3 mb-5">
-                      this platform free for cheatsheet and tips for developer
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a
-                class="text-dark"
-                href="https://www.vulnhub.com/"
-                target="_blank"
-              >
-                <div class="card mx-auto text-center">
-                  <div class="card-body">
-                    <h6 class="card-title text-center">vulnhub</h6>
-                    <p class="card-text mt-3 mb-5">
-                      the best platform for find free vulnerability and test
-                      machine
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 mb-4">
-              <a
-                class="text-dark"
-                href="https://stackoverflow.com/"
-                target="_blank"
-              >
-                <div class="card mx-auto text-center">
-                  <div class="card-body">
-                    <h6 class="card-title text-center">stack overflow</h6>
-                    <p class="card-text mt-3 mb-5">
-                      all problem developer always put here, you can find your
-                      problem here.
+                      {{item.description}}
                     </p>
                   </div>
                 </div>
@@ -254,6 +41,102 @@ export default {
   name: 'ResourceView',
   components: {
     AppButtonScroll,
+  },
+  data(){
+    return {
+      resource : [
+        {
+          title : "Udemy",
+          description: "good platform for paid online learning with metode video",
+          url : "https://www.udemy.com/",
+        },
+        {
+          title : "Coursera",
+          description: "good platform for paid online learning with metode video and good professional teacher",
+          url : "https://www.coursera.org/",
+        },
+        {
+          title : "Dicoding Academy",
+          description: "good platform for paid online learning with metode reading in indonesia",
+          url : "https://www.dicoding.com/",
+        },
+        {
+          title : "Dev To",
+          description: "free artikel dev story a lot software engineer sharing about experince in this platform",
+          url : "https://dev.to/",
+        },
+        {
+          title : "W3school",
+          description: "free documentation about programming language",
+          url : "https://www.w3schools.com/",
+        },
+        {
+          title : "javascript info",
+          description: "free documentation about javascript language",
+          url : "https://javascript.info/",
+        },
+        {
+          title : "roadmap.sh",
+          description: "free learning path if your wanna start new journey in software enginner",
+          url : "https://roadmap.sh/",
+        },
+        {
+          title : "youtube",
+          description: "best platform for find free tutorial and learning for free",
+          url : "https://www.youtube.com/",
+        },
+        {
+          title : "github",
+          description: "open source platform for code and repository",
+          url : "https://github.com/",
+        },
+        {
+          title : "google",
+          description: "search engine what you need find anything this is tools",
+          url : "https://www.google.com/",
+        },
+        {
+          title : "owasp",
+          description: "community for security risk",
+          url : "https://owasp.org/",
+        },
+        {
+          title : "google exploit",
+          description: "google hacking database you must to know about vurnerable",
+          url : "https://www.exploit-db.com/google-hacking-database",
+        },
+        {
+          title : "CTF Learn",
+          description: "this platform free for learn about CTF (Capture the Flag)",
+          url : "https://ctflearn.com/",
+        },
+        {
+          title : "leet code",
+          description: "this platform free for improve your logic algorithm and coding",
+          url : "https://leetcode.com/",
+        },
+        {
+          title : "devhints",
+          description: "this platform free for cheatsheet and tips for developer",
+          url : "https://devhints.io/",
+        },
+        {
+          title : "vulnhub",
+          description: "the best platform for find free vulnerability VM dan test them",
+          url : "https://www.vulnhub.com/",
+        },
+        {
+          title : "stack overflow",
+          description: "all problem developer always put here, you can find similar problem here",
+          url : "https://stackoverflow.com/",
+        },
+        {
+          title : "Web Socket API",
+          description: "this documentation drom MDN mozilla about web socket",
+          url : "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+        },
+      ]
+    }
   },
   head() {
     const url = 'https://naagaraa.netlify.app/'

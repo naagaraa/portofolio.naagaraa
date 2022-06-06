@@ -42,8 +42,8 @@
                   Miyuki Nagara
                 </NuxtLink>
                 <span class="author-description">
-                  Learner, Fullstack Web Developper main Language PHP and
-                  Javascript, and Framework Stack Laravel, Vuejs 3, and for UI
+                  Learner, Web Developer main Language PHP and
+                  Javascript, and Framework Stack Laravel, Vuejs, and for UI
                   component I'am used Boostrap.
                 </span>
                 <span class="post-date"

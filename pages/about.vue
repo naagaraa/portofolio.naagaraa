@@ -22,8 +22,8 @@
               came from linkedln or another social media to here. it's my
               website portofolio. I'm Web Developper, Main Stack Is PHP and
               Javascript Language, for framework I'm Flexible use, sometime I
-              used Code Igniter sometime I'm used Laravel 8, and For Front End
-              I'm used Vuejs 3, for UI Component I just used Boostrap.
+              used Code Igniter sometime I'm used Laravel, and For Front End
+              I'm used Vuejs, for UI Component I just used Boostrap.
             </p>
             <p>
               Actually, This Website has been finish with Code Igniter 3 at 2020

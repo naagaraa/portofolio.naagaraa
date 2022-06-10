@@ -48,7 +48,7 @@ export default {
         {
           title : "PHP Design Pattern",
           description: "design pattern for PHP programmer",
-          url : "https://designpatternsphp.readthedocs.io/en/latest/Structural/FluentInterface/README.html",
+          url : "https://designpatternsphp.readthedocs.io/en/latest/Creational/README.html",
         },
         {
           title : "Udemy",

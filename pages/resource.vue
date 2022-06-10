@@ -46,6 +46,11 @@ export default {
     return {
       resource : [
         {
+          title : "PHP Design Pattern",
+          description: "design pattern for PHP programmer",
+          url : "https://designpatternsphp.readthedocs.io/en/latest/Structural/FluentInterface/README.html",
+        },
+        {
           title : "Udemy",
           description: "good platform for paid online learning with metode video",
           url : "https://www.udemy.com/",

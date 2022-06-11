@@ -4,17 +4,27 @@
 
 ```bash
 # install dependencies
-$ yarn install
+$ npm run install
 
 # serve with hot reload at localhost:3000
-$ yarn dev
+$ npm run dev
 
 # build for production and launch server
-$ yarn build
-$ yarn start
+$ npm run build
+$ npm run start
 
 # generate static project
-$ yarn generate
+$ npm run generate
+```
+
+## heroku push
+
+```bash
+# heroku login
+heroku
+
+# heroku push git push -u <remote> <branch>:main
+git push -u heroku main:main
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).

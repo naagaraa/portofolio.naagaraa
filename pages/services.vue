@@ -19,23 +19,23 @@
                 Implementation Template HTML to Laravel Blade | price :
               </li>
               <li class="list-group-item">
-                Make Company Profile Website | price :
+                Make Company Profile Website | price : comming soon
               </li>
               <li class="list-group-item">
-                Make Landing Page Website | price :
+                Make Landing Page Website | price : comming soon
               </li>
               <li class="list-group-item">
-                Make Website used Wordpress | price :
+                Make Website used Wordpress | price : comming soon
               </li>
-              <li class="list-group-item">Bug Fixed Web Apps | price :</li>
+              <li class="list-group-item">Bug Fixed Web Apps | price : comming soon</li>
               <li class="list-group-item">
-                Change background pas Photo | price :
-              </li>
-              <li class="list-group-item">
-                Commision for Building Web Apps | price :
+                Change background pas Photo | price : comming soon
               </li>
               <li class="list-group-item">
-                Copy Writing | comming soon | price :
+                Commision for Building Web Apps | price :comming soon
+              </li>
+              <li class="list-group-item">
+                Copy Writing | comming soon | price : comming soon
               </li>
             </ul>
             <h5 class="mt-3">Skill Set</h5>

@@ -17,14 +17,22 @@
     <AppHeader />
     <div id="app" class="container mt-md-5 py-3">
       <div class="container">
-        <div class="row mt-5">
-          <div class="col">
+        <h3 class="mt-5">Gallery</h3>
+        <p>{{ galleryDescription }}</p>
+        <div class="row mt-5 justify-content-center">
+          <div
+            v-for="item in gallery"
+            :key="item.index"
+            class="col-md col-lg mt-2"
+          >
             <img
-              loading="lazy"
-              src="/mini-mvc.png"
-              class="mt-5 img-fluid"
-              alt="banner"
+              class="img-fluid"
+              :src="require(`~/assets/img/${item.image}`)"
+              alt="test"
             />
+            <div class="card-title">
+              <p class="text-center mt-3">{{ item.title }}</p>
+            </div>
           </div>
         </div>
         <div class="row mt-5">
@@ -33,6 +41,9 @@
               <li class="list-group-item">Title : MINI MVC PHP NATIVE</li>
               <li class="list-group-item">Tag : framework, project</li>
               <li class="list-group-item">Language : PHP, PHP7</li>
+              <li class="list-group-item">
+                Stack : PHP, PHP7, XAMPP, Windows, Composer, Symphoneny, PHP-ML
+              </li>
               <li class="list-group-item">
                 Source :
                 <a href="https://github.com/naagaraa/mini-mvc-php-native"
@@ -77,6 +88,15 @@
                 >
               </li>
             </ul>
+            <h3 class="mt-3">Video</h3>
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3WmttdPN1n4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                  <p class="card-title text-center">Demo Video about installation</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -88,6 +108,22 @@
 <script>
 import '../../assets/css/main.css'
 export default {
+  data() {
+    return {
+      galleryDescription:
+        'this is about orion gallery or screen shoot about the framework',
+      gallery: [
+        {
+          title: 'start up page',
+          image: 'mini-mvc.png',
+        },
+        {
+          title: 'documentation framework',
+          image: 'mini-mvc-docs.png',
+        },
+      ],
+    }
+  },
   head() {
     const url = 'https://naagaraa.netlify.app/'
     const article = {

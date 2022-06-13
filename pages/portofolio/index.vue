@@ -18,14 +18,14 @@
     <div id="app" class="container mt-md-5 mt-5 py-3">
       <!-- <h5 class="my-3">Search here</h5> -->
       <!-- <AppSearch /> -->
-      <h3 class="text-center mx-auto mt-3">Personal Project Dev</h3>
+      <h3 class="text-center mx-auto mt-3">Personal Project development</h3>
       <p class="text-center mb-5">
-        this project about developer to developper like libraries and native
+        this project about developer to developper like libraries, tools and native
         framework
       </p>
       <div class="container-fluid">
         <div class="container-fluid">
-          <div class="row">
+          <div class="row justify-content-center">
             <div
               v-for="item in Projectdev"
               :key="item.id"
@@ -42,7 +42,7 @@
             </div>
           </div>
           <!-- apps project -->
-          <h3 class="text-center mx-auto my-3 mt-3">Project App</h3>
+          <h3 class="text-center mx-auto my-3 mt-3">Project Application</h3>
           <p class="text-center mb-5">this project for user used</p>
           <div class="container-fluid">
             <p>this page for project application mobile and webapps</p>
@@ -110,22 +110,22 @@ export default {
         {
           name: 'Metode Skripsi',
           description:
-            'libraries PHP for skripsi, write algorithm by native code, like SAW or winnowing',
+            'libraries PHP include like linear regresion,  SAW , winnowing, image processing, OCR',
           path: '/portofolio/metode-skripshit',
         },
         {
           name: 'Shell Script',
-          description: 'shell script for installation setup in ubuntu',
+          description: 'automation script for enviroment development',
           path: '/portofolio/shell-script',
         },
+      ],
+      ProjectApp: [
         {
           name: 'Orion Scanner',
           description:
             'text processing or presentas index of similarity detection used winnowing and rabin karb',
           path: '/portofolio/orion-scanner',
         },
-      ],
-      ProjectApp: [
         {
           name: 'Whastaspp Lightning',
           description: 'start chat whatsapp without save number just copy paste and will be redirect to whatsapp UI',
